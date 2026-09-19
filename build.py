@@ -3,7 +3,7 @@
 
 Scans apps/*/app.toml, queries the GitHub API for tags/releases, then
 aggregates everything into dist/apps.json plus a minimal static frontend
-and zipped Icon Composer icons under dist/icons/.
+and light/dark icon PNGs under dist/icons/.
 """
 
 import json
@@ -14,7 +14,6 @@ import sys
 import tomllib
 import urllib.error
 import urllib.request
-import zipfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
@@ -69,21 +68,18 @@ def collect_versions(repo: str, filename: str) -> list:
     return versions
 
 
-def pack_icon(app_dir: Path, icon_name: str, app_id: str) -> None:
-    """Zip the .icon directory as {id}.icon.zip into dist/icons/."""
-    src = app_dir / icon_name
-    if not src.is_dir():
-        print(f"  [warn] icon directory not found: {src}", file=sys.stderr)
-        return
-    ICONS_DIR.mkdir(parents=True, exist_ok=True)
-    zip_path = ICONS_DIR / f"{app_id}.icon.zip"
-    with zipfile.ZipFile(zip_path, "w", zipfile.ZIP_DEFLATED) as zf:
-        for file in sorted(src.rglob("*")):
-            if file.is_file():
-                # rename the root folder to {id}.icon inside the archive
-                arcname = Path(f"{app_id}.icon") / file.relative_to(src)
-                zf.write(file, arcname.as_posix())
-    print(f"  icon packed: {zip_path.relative_to(ROOT)}")
+def copy_icons(app_dir: Path, icons: dict, app_id: str) -> None:
+    """Copy light/dark icon PNGs into dist/icons/ as {id}_light.png / {id}_dark.png."""
+    for variant in ("light", "dark"):
+        name = icons.get(variant)
+        src = app_dir / name if name else None
+        if not src or not src.is_file():
+            print(f"  [warn] {variant} icon not found: {src}", file=sys.stderr)
+            continue
+        ICONS_DIR.mkdir(parents=True, exist_ok=True)
+        dst = ICONS_DIR / f"{app_id}_{variant}.png"
+        shutil.copyfile(src, dst)
+        print(f"  icon copied: {dst.relative_to(ROOT)}")
 
 
 def main() -> None:
@@ -99,7 +95,9 @@ def main() -> None:
             continue
         print(f"[app] {app_dir.name}")
         with open(toml_path, "rb") as f:
-            data = tomllib.load(f)["app"]
+            doc = tomllib.load(f)
+        data = doc["app"]
+        icons = doc.get("icon", {})
 
         app_id = data["id"]
         repo = data["repo"]
@@ -118,7 +116,7 @@ def main() -> None:
             }
         )
 
-        pack_icon(app_dir, data["icon"], app_id)
+        copy_icons(app_dir, icons, app_id)
 
     # GitHub-style UTC timestamp, e.g. 2026-09-19T04:36:11Z
     updated_at = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")

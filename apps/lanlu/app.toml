@@ -1,10 +1,12 @@
 [app]
 id="lanlu"
 name="lanlu-iOS"
-icon="lanlu.icon"
 description="lanlu client for iOS"
 authors=["copurx", "DeeChael"]
 ai-assisted=true
 repo="DeeChael/lanlu-iOS"
 filename="lanlu-iOS.ipa"
 
+[icon]
+light="light.png"
+dark="dark.png"
