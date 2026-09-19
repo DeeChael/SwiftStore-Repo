@@ -1,0 +1,216 @@
+{
+  "updated_at": "2026-09-19T05:18:56Z",
+  "apps": [
+    {
+      "id": "lanlu",
+      "name": "lanlu-iOS",
+      "description": "lanlu client for iOS",
+      "authors": [
+        "copurx",
+        "DeeChael"
+      ],
+      "ai-assisted": true,
+      "repo": "https://github.com/DeeChael/lanlu-iOS",
+      "versions": [
+        {
+          "name": "v1.0.0",
+          "size": 3548580,
+          "created_at": "2026-09-19T04:34:47Z",
+          "url": "https://github.com/DeeChael/lanlu-iOS/releases/download/v1.0.0/lanlu-iOS.ipa"
+        }
+      ]
+    },
+    {
+      "id": "pixiv-swift",
+      "name": "Pixiv-Swift",
+      "description": "一个基于 SwiftUI 的 Pixiv 第三方客户端",
+      "authors": [
+        "Eslzzyl"
+      ],
+      "ai-assisted": true,
+      "repo": "https://github.com/Eslzzyl/Pixiv-SwiftUI",
+      "versions": [
+        {
+          "name": "v0.16.0",
+          "size": 10165131,
+          "created_at": "2026-09-16T14:30:24Z",
+          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.16.0/Pixiv-SwiftUI.ipa"
+        },
+        {
+          "name": "v0.15.0",
+          "size": 10437618,
+          "created_at": "2026-08-16T13:36:43Z",
+          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.15.0/Pixiv-SwiftUI.ipa"
+        },
+        {
+          "name": "v0.14.4",
+          "size": 7414080,
+          "created_at": "2026-06-09T13:47:18Z",
+          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.14.4/Pixiv-SwiftUI.ipa"
+        },
+        {
+          "name": "v0.14.3",
+          "size": 7288082,
+          "created_at": "2026-06-05T09:22:28Z",
+          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.14.3/Pixiv-SwiftUI.ipa"
+        },
+        {
+          "name": "v0.14.2",
+          "size": 7249553,
+          "created_at": "2026-05-26T14:17:30Z",
+          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.14.2/Pixiv-SwiftUI.ipa"
+        },
+        {
+          "name": "v0.14.1",
+          "size": 7228289,
+          "created_at": "2026-05-24T14:40:40Z",
+          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.14.1/Pixiv-SwiftUI.ipa"
+        },
+        {
+          "name": "v0.14.0",
+          "size": 7186021,
+          "created_at": "2026-05-21T14:05:12Z",
+          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.14.0/Pixiv-SwiftUI.ipa"
+        },
+        {
+          "name": "v0.13.0",
+          "size": 7375451,
+          "created_at": "2026-04-20T12:16:10Z",
+          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.13.0/Pixiv-SwiftUI.ipa"
+        },
+        {
+          "name": "v0.12.1",
+          "size": 7251046,
+          "created_at": "2026-03-15T13:29:20Z",
+          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.12.1/Pixiv-SwiftUI.ipa"
+        },
+        {
+          "name": "v0.12.0",
+          "size": 7253168,
+          "created_at": "2026-03-14T03:06:10Z",
+          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.12.0/Pixiv-SwiftUI.ipa"
+        },
+        {
+          "name": "v0.11.4",
+          "size": 7053529,
+          "created_at": "2026-03-11T06:33:46Z",
+          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.11.4/Pixiv-SwiftUI.ipa"
+        },
+        {
+          "name": "v0.11.3",
+          "size": 7041303,
+          "created_at": "2026-03-09T10:44:05Z",
+          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.11.3/Pixiv-SwiftUI.ipa"
+        },
+        {
+          "name": "v0.11.2",
+          "size": 7016081,
+          "created_at": "2026-03-02T03:26:44Z",
+          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.11.2/Pixiv-SwiftUI.ipa"
+        },
+        {
+          "name": "v0.11.1",
+          "size": 6986743,
+          "created_at": "2026-02-28T12:11:40Z",
+          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.11.1/Pixiv-SwiftUI.ipa"
+        },
+        {
+          "name": "v0.11.0",
+          "size": 6986866,
+          "created_at": "2026-02-28T11:41:36Z",
+          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.11.0/Pixiv-SwiftUI.ipa"
+        },
+        {
+          "name": "v0.10.2",
+          "size": 6783977,
+          "created_at": "2026-02-25T10:22:12Z",
+          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.10.2/Pixiv-SwiftUI.ipa"
+        },
+        {
+          "name": "v0.10.1",
+          "size": 6722975,
+          "created_at": "2026-02-24T14:02:35Z",
+          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.10.1/Pixiv-SwiftUI.ipa"
+        },
+        {
+          "name": "v0.10.0",
+          "size": 6627236,
+          "created_at": "2026-02-23T14:28:01Z",
+          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.10.0/Pixiv-SwiftUI.ipa"
+        },
+        {
+          "name": "v0.9.0",
+          "size": 5931004,
+          "created_at": "2026-02-16T05:52:48Z",
+          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.9.0/Pixiv-SwiftUI.ipa"
+        },
+        {
+          "name": "v0.8.1",
+          "size": 5906945,
+          "created_at": "2026-02-06T08:44:29Z",
+          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.8.1/Pixiv-SwiftUI.ipa"
+        },
+        {
+          "name": "v0.8.0",
+          "size": 5860617,
+          "created_at": "2026-02-03T05:23:35Z",
+          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.8.0/Pixiv-SwiftUI.ipa"
+        },
+        {
+          "name": "v0.7.2",
+          "size": 5844665,
+          "created_at": "2026-02-02T06:36:22Z",
+          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.7.2/Pixiv-SwiftUI.ipa"
+        },
+        {
+          "name": "v0.7.1",
+          "size": 5830091,
+          "created_at": "2026-02-01T16:46:09Z",
+          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.7.1/Pixiv-SwiftUI.ipa"
+        },
+        {
+          "name": "v0.7.0",
+          "size": 5641510,
+          "created_at": "2026-01-31T16:36:00Z",
+          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.7.0/Pixiv-SwiftUI.ipa"
+        },
+        {
+          "name": "v0.6.0",
+          "size": 5435058,
+          "created_at": "2026-01-30T14:24:06Z",
+          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.6.0/Pixiv-SwiftUI.ipa"
+        },
+        {
+          "name": "v0.5.0",
+          "size": 5369916,
+          "created_at": "2026-01-29T13:34:12Z",
+          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.5.0/Pixiv-SwiftUI.ipa"
+        },
+        {
+          "name": "v0.4.2",
+          "size": 5166896,
+          "created_at": "2026-01-23T07:38:40Z",
+          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.4.2/Pixiv-SwiftUI.ipa"
+        },
+        {
+          "name": "v0.4.1",
+          "size": 5143637,
+          "created_at": "2026-01-22T08:24:43Z",
+          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.4.1/Pixiv-SwiftUI.ipa"
+        },
+        {
+          "name": "v0.4.0",
+          "size": 6386743,
+          "created_at": "2026-01-20T13:48:25Z",
+          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.4.0/Pixiv-SwiftUI.ipa"
+        },
+        {
+          "name": "v0.3.0",
+          "size": 6220258,
+          "created_at": "2026-01-19T07:49:32Z",
+          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.3.0/Pixiv-SwiftUI.ipa"
+        }
+      ]
+    }
+  ]
+}
