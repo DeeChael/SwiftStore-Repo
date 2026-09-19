@@ -1,0 +1,15 @@
+[app]
+id="stikdebug"
+name="StikDebug"
+description="An on-device debugger/JIT enabler for iOS versions 17.4+, powered by idevice."
+authors=["StephenDev0", "CelloSerenity"]
+ai-assisted=false
+repo="StikDebug/StikDebug"
+filename="StikDebug-{version}.ipa"
+
+[icon]
+light="light.png"
+dark="dark.png"
+
+[parameter.version]
+source="tag.name"
