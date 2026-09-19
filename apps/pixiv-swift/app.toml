@@ -1,0 +1,10 @@
+[app]
+id="pixiv-swift"
+name="Pixiv-Swift"
+icon="pixiv.icon"
+description="一个基于 SwiftUI 的 Pixiv 第三方客户端"
+authors=["Eslzzyl"]
+ai-assisted=true
+repo="Eslzzyl/Pixiv-SwiftUI"
+filename="Pixiv-SwiftUI.ipa"
+
