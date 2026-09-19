@@ -1,0 +1,24 @@
+[app]
+id="pilipod"
+name="PiliPod"
+description="基于 Swift 开发的 Bilibili 第三方客户端"
+authors=["BPTPW"]
+ai-assisted=false
+repo="BPTPW/PiliPod"
+filename="PiliPod.{version}+{build}.ipa"
+
+[icon]
+light="light.png"
+dark="dark.png"
+
+[parameters.version]
+type="source"
+source="release.name"
+regex='PiliPod (.+) \(Build ([0-9]+)\)'
+group=1
+
+[parameters.build]
+type="source"
+source="release.name"
+regex='PiliPod (.+) \(Build ([0-9]+)\)'
+group=2

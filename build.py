@@ -8,6 +8,7 @@ and light/dark icon PNGs under dist/icons/.
 
 import json
 import os
+import re
 from datetime import datetime, timezone
 import shutil
 import sys
@@ -44,8 +45,74 @@ def github_get(url: str) -> list:
         return []
 
 
-def collect_versions(repo: str, filename: str) -> list:
-    """Return [{name, size, created_at, url}] for releases matching tags and asset filename."""
+def resolve_parameter(name: str, spec: dict, release: dict):
+    """Resolve one [parameters.xxx] entry against a single release.
+
+    Returns the variable's string value, or None when it cannot be resolved.
+    """
+    ptype = spec.get("type")
+    if ptype == "source":
+        source = spec.get("source")
+        if source == "release.name":
+            value = release.get("name")
+        elif source == "tag.name":
+            value = release.get("tag_name")
+        else:
+            print(f"  [warn] parameter {name}: unsupported source {source!r}", file=sys.stderr)
+            return None
+        regex = spec.get("regex")
+        group = spec.get("group")
+        if (regex is None) != (group is None):
+            print(f"  [warn] parameter {name}: regex and group must appear together", file=sys.stderr)
+        if regex is not None and group is not None:
+            if value is None:
+                return None
+            m = re.search(regex, value)
+            if not m:
+                return None
+            try:
+                return m.group(group)
+            except IndexError:
+                return None
+        return value
+    if ptype == "predicated":
+        predicate = spec.get("predicate")
+        if predicate == "prerelease":
+            value = release.get("prerelease")
+        else:
+            print(f"  [warn] parameter {name}: unsupported predicate {predicate!r}", file=sys.stderr)
+            value = None
+        if value is None:
+            return spec.get("fallback")
+        return spec.get("if_true") if value else spec.get("if_false")
+    print(f"  [warn] parameter {name}: unsupported type {ptype!r}", file=sys.stderr)
+    return None
+
+
+def render_filename(template: str, parameters: dict, release: dict):
+    """Fill {xxx} placeholders in the filename template from [parameters]."""
+    if not parameters:
+        return template
+    variables = {}
+    for name, spec in parameters.items():
+        value = resolve_parameter(name, spec, release)
+        if value is None:
+            print(
+                f"  [warn] release {release.get('tag_name')}: parameter {name} unresolved, skipped",
+                file=sys.stderr,
+            )
+            return None
+        variables[name] = value
+    try:
+        return template.format(**variables)
+    except (KeyError, IndexError) as e:
+        print(f"  [warn] filename template error: {e}", file=sys.stderr)
+        return None
+
+
+def collect_versions(repo: str, filename_template: str, parameters: dict) -> list:
+    """Return [{name, size, created_at, url, prerelease}] for releases matching
+    tags, resolving the asset filename per release via [parameters]."""
     tags = github_get(f"{GITHUB_API}/repos/{repo}/tags")
     tag_names = {t.get("name") for t in tags}
 
@@ -53,6 +120,9 @@ def collect_versions(repo: str, filename: str) -> list:
     versions = []
     for release in releases:
         if release.get("tag_name") not in tag_names:
+            continue
+        filename = render_filename(filename_template, parameters, release)
+        if filename is None:
             continue
         for asset in release.get("assets", []):
             if asset.get("name") == filename:
@@ -62,6 +132,7 @@ def collect_versions(repo: str, filename: str) -> list:
                         "size": asset.get("size"),
                         "created_at": asset.get("created_at"),
                         "url": asset.get("browser_download_url"),
+                        "prerelease": bool(release.get("prerelease")),
                     }
                 )
                 break
@@ -101,7 +172,7 @@ def main() -> None:
 
         app_id = data["id"]
         repo = data["repo"]
-        versions = collect_versions(repo, data["filename"])
+        versions = collect_versions(repo, data["filename"], doc.get("parameters", {}))
         print(f"  versions: {len(versions)}")
 
         apps.append(
