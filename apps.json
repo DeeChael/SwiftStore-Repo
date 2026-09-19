@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-19T06:19:23Z",
+  "updated_at": "2026-09-19T10:14:46Z",
   "apps": [
     {
       "id": "aidoku",
@@ -515,6 +515,26 @@
           "size": 6220258,
           "created_at": "2026-01-19T07:49:32Z",
           "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.3.0/Pixiv-SwiftUI.ipa",
+          "prerelease": false
+        }
+      ]
+    },
+    {
+      "id": "stikpair",
+      "name": "StikPair",
+      "description": "A simple SwiftUI iOS app that creates a pairing file on-device.",
+      "authors": [
+        "StephenDev0",
+        "CelloSerenity"
+      ],
+      "ai-assisted": false,
+      "repo": "https://github.com/StikDebug/StikPair",
+      "versions": [
+        {
+          "name": "v1.2.0",
+          "size": 7735750,
+          "created_at": "2026-08-25T22:17:33Z",
+          "url": "https://github.com/StikDebug/StikPair/releases/download/v1.2.0/StikPair.ipa",
           "prerelease": false
         }
       ]
