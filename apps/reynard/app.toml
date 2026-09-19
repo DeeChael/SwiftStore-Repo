@@ -1,0 +1,12 @@
+[app]
+id="reynard"
+name="Reynard Browser"
+description="An experimental Gecko-based web browser for iOS 13+."
+authors=["Minh Ton"]
+ai-assisted=false
+repo="minh-ton/reynard-browser"
+filename="Reynard.ipa"
+
+[icon]
+light="light.png"
+dark="dark.png"
