@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-19T05:49:29Z",
+  "updated_at": "2026-09-19T06:19:23Z",
   "apps": [
     {
       "id": "aidoku",
@@ -15,175 +15,204 @@
           "name": "v0.9",
           "size": 14731108,
           "created_at": "2026-09-07T05:13:42Z",
-          "url": "https://github.com/Aidoku/Aidoku/releases/download/v0.9/Aidoku.ipa"
+          "url": "https://github.com/Aidoku/Aidoku/releases/download/v0.9/Aidoku.ipa",
+          "prerelease": false
         },
         {
           "name": "v0.8.4",
           "size": 10136987,
           "created_at": "2026-07-03T05:25:35Z",
-          "url": "https://github.com/Aidoku/Aidoku/releases/download/v0.8.4/Aidoku.ipa"
+          "url": "https://github.com/Aidoku/Aidoku/releases/download/v0.8.4/Aidoku.ipa",
+          "prerelease": false
         },
         {
           "name": "v0.8.3",
           "size": 9287296,
           "created_at": "2026-05-21T06:30:58Z",
-          "url": "https://github.com/Aidoku/Aidoku/releases/download/v0.8.3/Aidoku.ipa"
+          "url": "https://github.com/Aidoku/Aidoku/releases/download/v0.8.3/Aidoku.ipa",
+          "prerelease": false
         },
         {
           "name": "v0.8.2",
           "size": 9119989,
           "created_at": "2026-03-20T18:11:03Z",
-          "url": "https://github.com/Aidoku/Aidoku/releases/download/v0.8.2/Aidoku.ipa"
+          "url": "https://github.com/Aidoku/Aidoku/releases/download/v0.8.2/Aidoku.ipa",
+          "prerelease": false
         },
         {
           "name": "v0.8.1",
           "size": 8636349,
           "created_at": "2026-02-12T14:20:10Z",
-          "url": "https://github.com/Aidoku/Aidoku/releases/download/v0.8.1/Aidoku.ipa"
+          "url": "https://github.com/Aidoku/Aidoku/releases/download/v0.8.1/Aidoku.ipa",
+          "prerelease": false
         },
         {
           "name": "v0.8",
           "size": 8599915,
           "created_at": "2026-01-04T18:55:25Z",
-          "url": "https://github.com/Aidoku/Aidoku/releases/download/v0.8/Aidoku.ipa"
+          "url": "https://github.com/Aidoku/Aidoku/releases/download/v0.8/Aidoku.ipa",
+          "prerelease": false
         },
         {
           "name": "v0.7.3",
           "size": 6197921,
           "created_at": "2025-11-19T16:34:35Z",
-          "url": "https://github.com/Aidoku/Aidoku/releases/download/v0.7.3/Aidoku.ipa"
+          "url": "https://github.com/Aidoku/Aidoku/releases/download/v0.7.3/Aidoku.ipa",
+          "prerelease": false
         },
         {
           "name": "v0.7.2",
           "size": 5818726,
           "created_at": "2025-10-19T17:21:23Z",
-          "url": "https://github.com/Aidoku/Aidoku/releases/download/v0.7.2/Aidoku.ipa"
+          "url": "https://github.com/Aidoku/Aidoku/releases/download/v0.7.2/Aidoku.ipa",
+          "prerelease": false
         },
         {
           "name": "v0.7.1",
           "size": 5619068,
           "created_at": "2025-08-07T18:00:24Z",
-          "url": "https://github.com/Aidoku/Aidoku/releases/download/v0.7.1/Aidoku.ipa"
+          "url": "https://github.com/Aidoku/Aidoku/releases/download/v0.7.1/Aidoku.ipa",
+          "prerelease": false
         },
         {
           "name": "v0.7",
           "size": 12490545,
           "created_at": "2025-07-01T17:50:38Z",
-          "url": "https://github.com/Aidoku/Aidoku/releases/download/v0.7/Aidoku.ipa"
+          "url": "https://github.com/Aidoku/Aidoku/releases/download/v0.7/Aidoku.ipa",
+          "prerelease": false
         },
         {
           "name": "v0.6.11",
           "size": 3429327,
           "created_at": "2025-04-16T15:36:14Z",
-          "url": "https://github.com/Aidoku/Aidoku/releases/download/v0.6.11/Aidoku.ipa"
+          "url": "https://github.com/Aidoku/Aidoku/releases/download/v0.6.11/Aidoku.ipa",
+          "prerelease": false
         },
         {
           "name": "v0.6.10",
           "size": 3354421,
           "created_at": "2024-11-08T01:08:03Z",
-          "url": "https://github.com/Aidoku/Aidoku/releases/download/v0.6.10/Aidoku.ipa"
+          "url": "https://github.com/Aidoku/Aidoku/releases/download/v0.6.10/Aidoku.ipa",
+          "prerelease": false
         },
         {
           "name": "v0.6.9",
           "size": 3386857,
           "created_at": "2024-08-17T23:53:31Z",
-          "url": "https://github.com/Aidoku/Aidoku/releases/download/v0.6.9/Aidoku.ipa"
+          "url": "https://github.com/Aidoku/Aidoku/releases/download/v0.6.9/Aidoku.ipa",
+          "prerelease": false
         },
         {
           "name": "v0.6.8",
           "size": 3297836,
           "created_at": "2024-05-13T00:02:48Z",
-          "url": "https://github.com/Aidoku/Aidoku/releases/download/v0.6.8/Aidoku.ipa"
+          "url": "https://github.com/Aidoku/Aidoku/releases/download/v0.6.8/Aidoku.ipa",
+          "prerelease": false
         },
         {
           "name": "v0.6.7",
           "size": 3264880,
           "created_at": "2024-02-14T21:54:43Z",
-          "url": "https://github.com/Aidoku/Aidoku/releases/download/v0.6.7/Aidoku.ipa"
+          "url": "https://github.com/Aidoku/Aidoku/releases/download/v0.6.7/Aidoku.ipa",
+          "prerelease": false
         },
         {
           "name": "v0.6.6",
           "size": 3235795,
           "created_at": "2023-11-27T01:41:37Z",
-          "url": "https://github.com/Aidoku/Aidoku/releases/download/v0.6.6/Aidoku.ipa"
+          "url": "https://github.com/Aidoku/Aidoku/releases/download/v0.6.6/Aidoku.ipa",
+          "prerelease": false
         },
         {
           "name": "v0.6.5",
           "size": 3206258,
           "created_at": "2023-09-03T22:47:38Z",
-          "url": "https://github.com/Aidoku/Aidoku/releases/download/v0.6.5/Aidoku.ipa"
+          "url": "https://github.com/Aidoku/Aidoku/releases/download/v0.6.5/Aidoku.ipa",
+          "prerelease": false
         },
         {
           "name": "v0.6.4",
           "size": 3304012,
           "created_at": "2023-07-11T04:20:30Z",
-          "url": "https://github.com/Aidoku/Aidoku/releases/download/v0.6.4/Aidoku.ipa"
+          "url": "https://github.com/Aidoku/Aidoku/releases/download/v0.6.4/Aidoku.ipa",
+          "prerelease": false
         },
         {
           "name": "v0.6.3",
           "size": 3309365,
           "created_at": "2023-06-03T16:48:40Z",
-          "url": "https://github.com/Aidoku/Aidoku/releases/download/v0.6.3/Aidoku.ipa"
+          "url": "https://github.com/Aidoku/Aidoku/releases/download/v0.6.3/Aidoku.ipa",
+          "prerelease": false
         },
         {
           "name": "v0.6.2",
           "size": 3268944,
           "created_at": "2023-03-25T01:33:01Z",
-          "url": "https://github.com/Aidoku/Aidoku/releases/download/v0.6.2/Aidoku.ipa"
+          "url": "https://github.com/Aidoku/Aidoku/releases/download/v0.6.2/Aidoku.ipa",
+          "prerelease": false
         },
         {
           "name": "v0.6.1",
           "size": 2450403,
           "created_at": "2023-01-06T23:11:55Z",
-          "url": "https://github.com/Aidoku/Aidoku/releases/download/v0.6.1/Aidoku.ipa"
+          "url": "https://github.com/Aidoku/Aidoku/releases/download/v0.6.1/Aidoku.ipa",
+          "prerelease": false
         },
         {
           "name": "v0.6",
           "size": 2571626,
           "created_at": "2022-12-22T03:56:28Z",
-          "url": "https://github.com/Aidoku/Aidoku/releases/download/v0.6/Aidoku.ipa"
+          "url": "https://github.com/Aidoku/Aidoku/releases/download/v0.6/Aidoku.ipa",
+          "prerelease": false
         },
         {
           "name": "v0.5",
           "size": 2187660,
           "created_at": "2022-07-25T22:07:45Z",
-          "url": "https://github.com/Aidoku/Aidoku/releases/download/v0.5/Aidoku.ipa"
+          "url": "https://github.com/Aidoku/Aidoku/releases/download/v0.5/Aidoku.ipa",
+          "prerelease": false
         },
         {
           "name": "v0.4.3",
           "size": 1914498,
           "created_at": "2022-06-15T20:12:19Z",
-          "url": "https://github.com/Aidoku/Aidoku/releases/download/v0.4.3/Aidoku.ipa"
+          "url": "https://github.com/Aidoku/Aidoku/releases/download/v0.4.3/Aidoku.ipa",
+          "prerelease": false
         },
         {
           "name": "v0.4.2",
           "size": 1841850,
           "created_at": "2022-06-10T00:59:59Z",
-          "url": "https://github.com/Aidoku/Aidoku/releases/download/v0.4.2/Aidoku.ipa"
+          "url": "https://github.com/Aidoku/Aidoku/releases/download/v0.4.2/Aidoku.ipa",
+          "prerelease": false
         },
         {
           "name": "v0.4-2",
           "size": 1732378,
           "created_at": "2022-05-25T17:30:40Z",
-          "url": "https://github.com/Aidoku/Aidoku/releases/download/v0.4-2/Aidoku.ipa"
+          "url": "https://github.com/Aidoku/Aidoku/releases/download/v0.4-2/Aidoku.ipa",
+          "prerelease": false
         },
         {
           "name": "v0.4",
           "size": 1715569,
           "created_at": "2022-05-25T02:57:38Z",
-          "url": "https://github.com/Aidoku/Aidoku/releases/download/v0.4/Aidoku.ipa"
+          "url": "https://github.com/Aidoku/Aidoku/releases/download/v0.4/Aidoku.ipa",
+          "prerelease": false
         },
         {
           "name": "v0.3.2",
           "size": 1607938,
           "created_at": "2022-05-02T20:41:58Z",
-          "url": "https://github.com/Aidoku/Aidoku/releases/download/v0.3.2/Aidoku.ipa"
+          "url": "https://github.com/Aidoku/Aidoku/releases/download/v0.3.2/Aidoku.ipa",
+          "prerelease": false
         },
         {
           "name": "v0.3.1",
           "size": 1565313,
           "created_at": "2022-04-26T12:42:56Z",
-          "url": "https://github.com/Aidoku/Aidoku/releases/download/v0.3.1/Aidoku.ipa"
+          "url": "https://github.com/Aidoku/Aidoku/releases/download/v0.3.1/Aidoku.ipa",
+          "prerelease": false
         }
       ]
     },
@@ -202,7 +231,69 @@
           "name": "v1.0.0",
           "size": 3548580,
           "created_at": "2026-09-19T04:34:47Z",
-          "url": "https://github.com/DeeChael/lanlu-iOS/releases/download/v1.0.0/lanlu-iOS.ipa"
+          "url": "https://github.com/DeeChael/lanlu-iOS/releases/download/v1.0.0/lanlu-iOS.ipa",
+          "prerelease": false
+        }
+      ]
+    },
+    {
+      "id": "pilipod",
+      "name": "PiliPod",
+      "description": "基于 Swift 开发的 Bilibili 第三方客户端",
+      "authors": [
+        "BPTPW"
+      ],
+      "ai-assisted": false,
+      "repo": "https://github.com/BPTPW/PiliPod",
+      "versions": [
+        {
+          "name": "0.3.6",
+          "size": 19998342,
+          "created_at": "2026-08-26T16:55:01Z",
+          "url": "https://github.com/BPTPW/PiliPod/releases/download/0.3.6/PiliPod.0.3.6%2B403.ipa",
+          "prerelease": false
+        },
+        {
+          "name": "0.3.5",
+          "size": 19809227,
+          "created_at": "2026-08-19T17:16:37Z",
+          "url": "https://github.com/BPTPW/PiliPod/releases/download/0.3.5/PiliPod.0.3.5%2B383.ipa",
+          "prerelease": false
+        },
+        {
+          "name": "0.3.4",
+          "size": 19506278,
+          "created_at": "2026-08-15T18:23:54Z",
+          "url": "https://github.com/BPTPW/PiliPod/releases/download/0.3.4/PiliPod.0.3.4%2B376.ipa",
+          "prerelease": false
+        },
+        {
+          "name": "0.3.3",
+          "size": 19493916,
+          "created_at": "2026-08-15T16:48:48Z",
+          "url": "https://github.com/BPTPW/PiliPod/releases/download/0.3.3/PiliPod.0.3.3%2B374.ipa",
+          "prerelease": false
+        },
+        {
+          "name": "0.3.2",
+          "size": 19456789,
+          "created_at": "2026-08-10T04:04:42Z",
+          "url": "https://github.com/BPTPW/PiliPod/releases/download/0.3.2/PiliPod.0.3.2%2B363.ipa",
+          "prerelease": false
+        },
+        {
+          "name": "0.3.1",
+          "size": 19422566,
+          "created_at": "2026-08-07T09:33:12Z",
+          "url": "https://github.com/BPTPW/PiliPod/releases/download/0.3.1/PiliPod.0.3.1%2B354.ipa",
+          "prerelease": false
+        },
+        {
+          "name": "0.3.0",
+          "size": 19308242,
+          "created_at": "2026-08-02T10:01:05Z",
+          "url": "https://github.com/BPTPW/PiliPod/releases/download/0.3.0/PiliPod.0.3.0%2B333.ipa",
+          "prerelease": false
         }
       ]
     },
@@ -220,181 +311,211 @@
           "name": "v0.16.0",
           "size": 10165131,
           "created_at": "2026-09-16T14:30:24Z",
-          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.16.0/Pixiv-SwiftUI.ipa"
+          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.16.0/Pixiv-SwiftUI.ipa",
+          "prerelease": false
         },
         {
           "name": "v0.15.0",
           "size": 10437618,
           "created_at": "2026-08-16T13:36:43Z",
-          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.15.0/Pixiv-SwiftUI.ipa"
+          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.15.0/Pixiv-SwiftUI.ipa",
+          "prerelease": false
         },
         {
           "name": "v0.14.4",
           "size": 7414080,
           "created_at": "2026-06-09T13:47:18Z",
-          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.14.4/Pixiv-SwiftUI.ipa"
+          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.14.4/Pixiv-SwiftUI.ipa",
+          "prerelease": false
         },
         {
           "name": "v0.14.3",
           "size": 7288082,
           "created_at": "2026-06-05T09:22:28Z",
-          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.14.3/Pixiv-SwiftUI.ipa"
+          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.14.3/Pixiv-SwiftUI.ipa",
+          "prerelease": false
         },
         {
           "name": "v0.14.2",
           "size": 7249553,
           "created_at": "2026-05-26T14:17:30Z",
-          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.14.2/Pixiv-SwiftUI.ipa"
+          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.14.2/Pixiv-SwiftUI.ipa",
+          "prerelease": false
         },
         {
           "name": "v0.14.1",
           "size": 7228289,
           "created_at": "2026-05-24T14:40:40Z",
-          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.14.1/Pixiv-SwiftUI.ipa"
+          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.14.1/Pixiv-SwiftUI.ipa",
+          "prerelease": false
         },
         {
           "name": "v0.14.0",
           "size": 7186021,
           "created_at": "2026-05-21T14:05:12Z",
-          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.14.0/Pixiv-SwiftUI.ipa"
+          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.14.0/Pixiv-SwiftUI.ipa",
+          "prerelease": false
         },
         {
           "name": "v0.13.0",
           "size": 7375451,
           "created_at": "2026-04-20T12:16:10Z",
-          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.13.0/Pixiv-SwiftUI.ipa"
+          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.13.0/Pixiv-SwiftUI.ipa",
+          "prerelease": false
         },
         {
           "name": "v0.12.1",
           "size": 7251046,
           "created_at": "2026-03-15T13:29:20Z",
-          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.12.1/Pixiv-SwiftUI.ipa"
+          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.12.1/Pixiv-SwiftUI.ipa",
+          "prerelease": false
         },
         {
           "name": "v0.12.0",
           "size": 7253168,
           "created_at": "2026-03-14T03:06:10Z",
-          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.12.0/Pixiv-SwiftUI.ipa"
+          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.12.0/Pixiv-SwiftUI.ipa",
+          "prerelease": false
         },
         {
           "name": "v0.11.4",
           "size": 7053529,
           "created_at": "2026-03-11T06:33:46Z",
-          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.11.4/Pixiv-SwiftUI.ipa"
+          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.11.4/Pixiv-SwiftUI.ipa",
+          "prerelease": false
         },
         {
           "name": "v0.11.3",
           "size": 7041303,
           "created_at": "2026-03-09T10:44:05Z",
-          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.11.3/Pixiv-SwiftUI.ipa"
+          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.11.3/Pixiv-SwiftUI.ipa",
+          "prerelease": false
         },
         {
           "name": "v0.11.2",
           "size": 7016081,
           "created_at": "2026-03-02T03:26:44Z",
-          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.11.2/Pixiv-SwiftUI.ipa"
+          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.11.2/Pixiv-SwiftUI.ipa",
+          "prerelease": false
         },
         {
           "name": "v0.11.1",
           "size": 6986743,
           "created_at": "2026-02-28T12:11:40Z",
-          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.11.1/Pixiv-SwiftUI.ipa"
+          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.11.1/Pixiv-SwiftUI.ipa",
+          "prerelease": false
         },
         {
           "name": "v0.11.0",
           "size": 6986866,
           "created_at": "2026-02-28T11:41:36Z",
-          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.11.0/Pixiv-SwiftUI.ipa"
+          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.11.0/Pixiv-SwiftUI.ipa",
+          "prerelease": false
         },
         {
           "name": "v0.10.2",
           "size": 6783977,
           "created_at": "2026-02-25T10:22:12Z",
-          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.10.2/Pixiv-SwiftUI.ipa"
+          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.10.2/Pixiv-SwiftUI.ipa",
+          "prerelease": false
         },
         {
           "name": "v0.10.1",
           "size": 6722975,
           "created_at": "2026-02-24T14:02:35Z",
-          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.10.1/Pixiv-SwiftUI.ipa"
+          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.10.1/Pixiv-SwiftUI.ipa",
+          "prerelease": false
         },
         {
           "name": "v0.10.0",
           "size": 6627236,
           "created_at": "2026-02-23T14:28:01Z",
-          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.10.0/Pixiv-SwiftUI.ipa"
+          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.10.0/Pixiv-SwiftUI.ipa",
+          "prerelease": false
         },
         {
           "name": "v0.9.0",
           "size": 5931004,
           "created_at": "2026-02-16T05:52:48Z",
-          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.9.0/Pixiv-SwiftUI.ipa"
+          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.9.0/Pixiv-SwiftUI.ipa",
+          "prerelease": false
         },
         {
           "name": "v0.8.1",
           "size": 5906945,
           "created_at": "2026-02-06T08:44:29Z",
-          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.8.1/Pixiv-SwiftUI.ipa"
+          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.8.1/Pixiv-SwiftUI.ipa",
+          "prerelease": false
         },
         {
           "name": "v0.8.0",
           "size": 5860617,
           "created_at": "2026-02-03T05:23:35Z",
-          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.8.0/Pixiv-SwiftUI.ipa"
+          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.8.0/Pixiv-SwiftUI.ipa",
+          "prerelease": false
         },
         {
           "name": "v0.7.2",
           "size": 5844665,
           "created_at": "2026-02-02T06:36:22Z",
-          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.7.2/Pixiv-SwiftUI.ipa"
+          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.7.2/Pixiv-SwiftUI.ipa",
+          "prerelease": false
         },
         {
           "name": "v0.7.1",
           "size": 5830091,
           "created_at": "2026-02-01T16:46:09Z",
-          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.7.1/Pixiv-SwiftUI.ipa"
+          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.7.1/Pixiv-SwiftUI.ipa",
+          "prerelease": false
         },
         {
           "name": "v0.7.0",
           "size": 5641510,
           "created_at": "2026-01-31T16:36:00Z",
-          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.7.0/Pixiv-SwiftUI.ipa"
+          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.7.0/Pixiv-SwiftUI.ipa",
+          "prerelease": false
         },
         {
           "name": "v0.6.0",
           "size": 5435058,
           "created_at": "2026-01-30T14:24:06Z",
-          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.6.0/Pixiv-SwiftUI.ipa"
+          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.6.0/Pixiv-SwiftUI.ipa",
+          "prerelease": false
         },
         {
           "name": "v0.5.0",
           "size": 5369916,
           "created_at": "2026-01-29T13:34:12Z",
-          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.5.0/Pixiv-SwiftUI.ipa"
+          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.5.0/Pixiv-SwiftUI.ipa",
+          "prerelease": false
         },
         {
           "name": "v0.4.2",
           "size": 5166896,
           "created_at": "2026-01-23T07:38:40Z",
-          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.4.2/Pixiv-SwiftUI.ipa"
+          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.4.2/Pixiv-SwiftUI.ipa",
+          "prerelease": false
         },
         {
           "name": "v0.4.1",
           "size": 5143637,
           "created_at": "2026-01-22T08:24:43Z",
-          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.4.1/Pixiv-SwiftUI.ipa"
+          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.4.1/Pixiv-SwiftUI.ipa",
+          "prerelease": false
         },
         {
           "name": "v0.4.0",
           "size": 6386743,
           "created_at": "2026-01-20T13:48:25Z",
-          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.4.0/Pixiv-SwiftUI.ipa"
+          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.4.0/Pixiv-SwiftUI.ipa",
+          "prerelease": false
         },
         {
           "name": "v0.3.0",
           "size": 6220258,
           "created_at": "2026-01-19T07:49:32Z",
-          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.3.0/Pixiv-SwiftUI.ipa"
+          "url": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.3.0/Pixiv-SwiftUI.ipa",
+          "prerelease": false
         }
       ]
     },
@@ -412,181 +533,211 @@
           "name": "v5.0.5",
           "size": 144463010,
           "created_at": "2026-09-02T05:57:49Z",
-          "url": "https://github.com/utmapp/UTM/releases/download/v5.0.5/UTM.ipa"
+          "url": "https://github.com/utmapp/UTM/releases/download/v5.0.5/UTM.ipa",
+          "prerelease": true
         },
         {
           "name": "v5.0.4",
           "size": 131828424,
           "created_at": "2026-08-01T16:41:47Z",
-          "url": "https://github.com/utmapp/UTM/releases/download/v5.0.4/UTM.ipa"
+          "url": "https://github.com/utmapp/UTM/releases/download/v5.0.4/UTM.ipa",
+          "prerelease": true
         },
         {
           "name": "v5.0.3",
           "size": 133934639,
           "created_at": "2026-05-03T22:04:38Z",
-          "url": "https://github.com/utmapp/UTM/releases/download/v5.0.3/UTM.ipa"
+          "url": "https://github.com/utmapp/UTM/releases/download/v5.0.3/UTM.ipa",
+          "prerelease": true
         },
         {
           "name": "v5.0.2",
           "size": 133900790,
           "created_at": "2026-02-24T19:17:40Z",
-          "url": "https://github.com/utmapp/UTM/releases/download/v5.0.2/UTM.ipa"
+          "url": "https://github.com/utmapp/UTM/releases/download/v5.0.2/UTM.ipa",
+          "prerelease": true
         },
         {
           "name": "v5.0.1",
           "size": 134042001,
           "created_at": "2026-01-19T23:23:59Z",
-          "url": "https://github.com/utmapp/UTM/releases/download/v5.0.1/UTM.ipa"
+          "url": "https://github.com/utmapp/UTM/releases/download/v5.0.1/UTM.ipa",
+          "prerelease": true
         },
         {
           "name": "v5.0.0",
           "size": 134032994,
           "created_at": "2026-01-11T20:02:21Z",
-          "url": "https://github.com/utmapp/UTM/releases/download/v5.0.0/UTM.ipa"
+          "url": "https://github.com/utmapp/UTM/releases/download/v5.0.0/UTM.ipa",
+          "prerelease": true
         },
         {
           "name": "v4.7.5",
           "size": 130058389,
           "created_at": "2026-01-03T18:14:45Z",
-          "url": "https://github.com/utmapp/UTM/releases/download/v4.7.5/UTM.ipa"
+          "url": "https://github.com/utmapp/UTM/releases/download/v4.7.5/UTM.ipa",
+          "prerelease": false
         },
         {
           "name": "v4.7.4",
           "size": 130036731,
           "created_at": "2025-09-15T21:39:05Z",
-          "url": "https://github.com/utmapp/UTM/releases/download/v4.7.4/UTM.ipa"
+          "url": "https://github.com/utmapp/UTM/releases/download/v4.7.4/UTM.ipa",
+          "prerelease": false
         },
         {
           "name": "v4.7.3",
           "size": 129998963,
           "created_at": "2025-08-28T21:27:03Z",
-          "url": "https://github.com/utmapp/UTM/releases/download/v4.7.3/UTM.ipa"
+          "url": "https://github.com/utmapp/UTM/releases/download/v4.7.3/UTM.ipa",
+          "prerelease": true
         },
         {
           "name": "v4.7.2",
           "size": 129994949,
           "created_at": "2025-08-19T18:15:36Z",
-          "url": "https://github.com/utmapp/UTM/releases/download/v4.7.2/UTM.ipa"
+          "url": "https://github.com/utmapp/UTM/releases/download/v4.7.2/UTM.ipa",
+          "prerelease": true
         },
         {
           "name": "v4.7.1",
           "size": 129768623,
           "created_at": "2025-08-04T06:38:56Z",
-          "url": "https://github.com/utmapp/UTM/releases/download/v4.7.1/UTM.ipa"
+          "url": "https://github.com/utmapp/UTM/releases/download/v4.7.1/UTM.ipa",
+          "prerelease": true
         },
         {
           "name": "v4.7.0",
           "size": 128771689,
           "created_at": "2025-07-09T07:42:10Z",
-          "url": "https://github.com/utmapp/UTM/releases/download/v4.7.0/UTM.ipa"
+          "url": "https://github.com/utmapp/UTM/releases/download/v4.7.0/UTM.ipa",
+          "prerelease": true
         },
         {
           "name": "v4.6.5",
           "size": 126242757,
           "created_at": "2025-04-08T05:08:54Z",
-          "url": "https://github.com/utmapp/UTM/releases/download/v4.6.5/UTM.ipa"
+          "url": "https://github.com/utmapp/UTM/releases/download/v4.6.5/UTM.ipa",
+          "prerelease": false
         },
         {
           "name": "v4.6.4",
           "size": 126283846,
           "created_at": "2024-12-23T17:12:52Z",
-          "url": "https://github.com/utmapp/UTM/releases/download/v4.6.4/UTM.ipa"
+          "url": "https://github.com/utmapp/UTM/releases/download/v4.6.4/UTM.ipa",
+          "prerelease": false
         },
         {
           "name": "v4.6.3",
           "size": 126205311,
           "created_at": "2024-12-03T02:36:52Z",
-          "url": "https://github.com/utmapp/UTM/releases/download/v4.6.3/UTM.ipa"
+          "url": "https://github.com/utmapp/UTM/releases/download/v4.6.3/UTM.ipa",
+          "prerelease": false
         },
         {
           "name": "v4.6.2",
           "size": 126199938,
           "created_at": "2024-11-27T21:08:27Z",
-          "url": "https://github.com/utmapp/UTM/releases/download/v4.6.2/UTM.ipa"
+          "url": "https://github.com/utmapp/UTM/releases/download/v4.6.2/UTM.ipa",
+          "prerelease": false
         },
         {
           "name": "v4.6.1",
           "size": 125892136,
           "created_at": "2024-11-22T20:30:12Z",
-          "url": "https://github.com/utmapp/UTM/releases/download/v4.6.1/UTM.ipa"
+          "url": "https://github.com/utmapp/UTM/releases/download/v4.6.1/UTM.ipa",
+          "prerelease": true
         },
         {
           "name": "v4.6.0",
           "size": 125772355,
           "created_at": "2024-10-04T06:34:33Z",
-          "url": "https://github.com/utmapp/UTM/releases/download/v4.6.0/UTM.ipa"
+          "url": "https://github.com/utmapp/UTM/releases/download/v4.6.0/UTM.ipa",
+          "prerelease": true
         },
         {
           "name": "v4.5.4",
           "size": 122064838,
           "created_at": "2024-08-24T14:10:22Z",
-          "url": "https://github.com/utmapp/UTM/releases/download/v4.5.4/UTM.ipa"
+          "url": "https://github.com/utmapp/UTM/releases/download/v4.5.4/UTM.ipa",
+          "prerelease": false
         },
         {
           "name": "v4.5.3",
           "size": 122023507,
           "created_at": "2024-05-24T04:58:10Z",
-          "url": "https://github.com/utmapp/UTM/releases/download/v4.5.3/UTM.ipa"
+          "url": "https://github.com/utmapp/UTM/releases/download/v4.5.3/UTM.ipa",
+          "prerelease": false
         },
         {
           "name": "v4.5.2",
           "size": 122012781,
           "created_at": "2024-04-30T06:22:58Z",
-          "url": "https://github.com/utmapp/UTM/releases/download/v4.5.2/UTM.ipa"
+          "url": "https://github.com/utmapp/UTM/releases/download/v4.5.2/UTM.ipa",
+          "prerelease": false
         },
         {
           "name": "v4.5.1",
           "size": 121910890,
           "created_at": "2024-04-01T06:01:34Z",
-          "url": "https://github.com/utmapp/UTM/releases/download/v4.5.1/UTM.ipa"
+          "url": "https://github.com/utmapp/UTM/releases/download/v4.5.1/UTM.ipa",
+          "prerelease": true
         },
         {
           "name": "v4.5.0",
           "size": 122001807,
           "created_at": "2024-02-28T01:34:45Z",
-          "url": "https://github.com/utmapp/UTM/releases/download/v4.5.0/UTM.ipa"
+          "url": "https://github.com/utmapp/UTM/releases/download/v4.5.0/UTM.ipa",
+          "prerelease": true
         },
         {
           "name": "v4.4.5",
           "size": 121811168,
           "created_at": "2023-12-11T01:04:26Z",
-          "url": "https://github.com/utmapp/UTM/releases/download/v4.4.5/UTM.ipa"
+          "url": "https://github.com/utmapp/UTM/releases/download/v4.4.5/UTM.ipa",
+          "prerelease": false
         },
         {
           "name": "v4.4.4",
           "size": 121809967,
           "created_at": "2023-10-20T23:53:33Z",
-          "url": "https://github.com/utmapp/UTM/releases/download/v4.4.4/UTM.ipa"
+          "url": "https://github.com/utmapp/UTM/releases/download/v4.4.4/UTM.ipa",
+          "prerelease": false
         },
         {
           "name": "v4.4.3",
           "size": 121810735,
           "created_at": "2023-10-11T04:24:05Z",
-          "url": "https://github.com/utmapp/UTM/releases/download/v4.4.3/UTM.ipa"
+          "url": "https://github.com/utmapp/UTM/releases/download/v4.4.3/UTM.ipa",
+          "prerelease": false
         },
         {
           "name": "v4.4.2",
           "size": 121797139,
           "created_at": "2023-10-04T05:32:22Z",
-          "url": "https://github.com/utmapp/UTM/releases/download/v4.4.2/UTM.ipa"
+          "url": "https://github.com/utmapp/UTM/releases/download/v4.4.2/UTM.ipa",
+          "prerelease": true
         },
         {
           "name": "v4.4.1",
           "size": 121759652,
           "created_at": "2023-09-05T05:34:19Z",
-          "url": "https://github.com/utmapp/UTM/releases/download/v4.4.1/UTM.ipa"
+          "url": "https://github.com/utmapp/UTM/releases/download/v4.4.1/UTM.ipa",
+          "prerelease": true
         },
         {
           "name": "v4.4.0",
           "size": 121691543,
           "created_at": "2023-08-26T00:56:45Z",
-          "url": "https://github.com/utmapp/UTM/releases/download/v4.4.0/UTM.ipa"
+          "url": "https://github.com/utmapp/UTM/releases/download/v4.4.0/UTM.ipa",
+          "prerelease": true
         },
         {
           "name": "v4.3.5",
           "size": 123210353,
           "created_at": "2023-08-04T23:45:27Z",
-          "url": "https://github.com/utmapp/UTM/releases/download/v4.3.5/UTM.ipa"
+          "url": "https://github.com/utmapp/UTM/releases/download/v4.3.5/UTM.ipa",
+          "prerelease": false
         }
       ]
     }
