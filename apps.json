@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-19T10:51:27Z",
+  "updated_at": "2026-09-19T12:17:54Z",
   "apps": [
     {
       "id": "aidoku",
@@ -656,6 +656,18 @@
           "prerelease": true
         }
       ]
+    },
+    {
+      "id": "stikdebug",
+      "name": "StikDebug",
+      "description": "An on-device debugger/JIT enabler for iOS versions 17.4+, powered by idevice.",
+      "authors": [
+        "StephenDev0",
+        "CelloSerenity"
+      ],
+      "ai-assisted": false,
+      "repo": "https://github.com/StikDebug/StikDebug",
+      "versions": []
     },
     {
       "id": "stikpair",
