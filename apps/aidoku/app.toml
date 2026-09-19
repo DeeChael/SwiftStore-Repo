@@ -1,0 +1,12 @@
+[app]
+id="aidoku"
+name="Aidoku"
+description="Manga reading app for iOS, iPadOS, and macOS"
+authors=["Aidoku"]
+ai-assisted=false
+repo="Aidoku/Aidoku"
+filename="Aidoku.ipa"
+
+[icon]
+light="light.png"
+dark="dark.png"
