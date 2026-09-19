@@ -1,0 +1,12 @@
+[app]
+id="utm"
+name="UTM"
+description="Virtual machines for iOS and macOS"
+authors=["utmapp"]
+ai-assisted=false
+repo="utmapp/UTM"
+filename="UTM.ipa"
+
+[icon]
+light="light.png"
+dark="dark.png"
