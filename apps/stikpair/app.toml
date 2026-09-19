@@ -1,0 +1,12 @@
+[app]
+id="stikpair"
+name="StikPair"
+description="A simple SwiftUI iOS app that creates a pairing file on-device."
+authors=["StephenDev0", "CelloSerenity"]
+ai-assisted=false
+repo="StikDebug/StikPair"
+filename="StikPair.ipa"
+
+[icon]
+light="light.png"
+dark="dark.png"
