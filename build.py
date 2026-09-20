@@ -172,8 +172,23 @@ def main() -> None:
 
         app_id = data["id"]
         repo = data["repo"]
-        versions = collect_versions(repo, data["filename"], doc.get("parameters", {}))
+        parameters = doc.get("parameters", {})
+        versions = collect_versions(repo, data["filename"], parameters)
         print(f"  versions: {len(versions)}")
+
+        # [source.xxx]: extra repos whose releases are collected with the same
+        # filename template and parameters as the default repo.
+        sources = []
+        for source_id, source in doc.get("source", {}).items():
+            source_versions = collect_versions(source["repo"], data["filename"], parameters)
+            print(f"  source {source_id} ({source['repo']}): {len(source_versions)} versions")
+            sources.append(
+                {
+                    "id": source_id,
+                    "name": source["name"],
+                    "versions": source_versions,
+                }
+            )
 
         apps.append(
             {
@@ -184,6 +199,7 @@ def main() -> None:
                 "ai-assisted": data.get("ai-assisted", False),
                 "repo": f"https://github.com/{repo}",
                 "versions": versions,
+                "sources": sources,
             }
         )
 

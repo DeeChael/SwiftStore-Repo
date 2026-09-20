@@ -11,5 +11,6 @@ filename="StikDebug-{version}.ipa"
 light="light.png"
 dark="dark.png"
 
-[parameter.version]
+[parameters.version]
+type="source"
 source="tag.name"

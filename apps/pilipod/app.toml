@@ -11,6 +11,10 @@ filename="PiliPod.{version}+{build}.ipa"
 light="light.png"
 dark="dark.png"
 
+[source.deechael]
+name="DeeChael 源"
+repo="DeeChael/PiliPod"
+
 [parameters.version]
 type="source"
 source="release.name"

@@ -69,6 +69,28 @@ fallback = ""                                # predicate 取不到值时的兜�
 
 > 注意：TOML 中含 `\` 的正则请使用单引号字面字符串（`regex = '...'`），双引号字符串里的 `\(` 是非法转义。
 
+### 添加额外的源（fork）
+
+如果同一个应用有其他人维护的 fork 仓库也想收录，可以用 `[source.xxx]` 声明（`xxx` 为源的 id）：
+
+```toml
+[source.deechael]
+name = "DeeChael 源"
+repo = "DeeChael/PiliPod"
+```
+
+每个源会对自己的 `repo` 执行与默认仓库完全相同的版本收集逻辑（共用同一个 `filename` 模板和 `[parameters]`），生成的版本列表出现在该应用 JSON 的 `sources` 数组中：
+
+```json
+"sources": [
+  {
+    "id": "deechael",
+    "name": "DeeChael 源",
+    "versions": [ ... ]
+  }
+]
+```
+
 ## 生成的 API
 
 部署后（`gh-pages` 分支）：
@@ -97,7 +119,8 @@ fallback = ""                                # predicate 取不到值时的兜�
           "url": "https://github.com/owner/repo/releases/download/v1.0.0/MyApp.ipa",
           "prerelease": false
         }
-      ]
+      ],
+      "sources": []
     }
   ]
 }
