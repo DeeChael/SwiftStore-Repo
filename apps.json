@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T01:01:41Z",
+  "updated_at": "2026-09-21T05:34:08Z",
   "apps": [
     {
       "id": "aidoku",
@@ -679,6 +679,27 @@
           "created_at": "2026-03-08T09:59:25Z",
           "url": "https://github.com/minh-ton/reynard-browser/releases/download/0.0.1-a1/Reynard.ipa",
           "prerelease": true
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "rohy-toolbox",
+      "name": "若曦工具箱",
+      "description": "iOS 超级工具箱合集",
+      "authors": [
+        "RohyTeam",
+        "DeeChael"
+      ],
+      "ai-assisted": true,
+      "repo": "https://github.com/RohyTeam/RohyToolbox-Swift",
+      "versions": [
+        {
+          "name": "1.0.0",
+          "size": 3441270,
+          "created_at": "2026-09-21T05:21:19Z",
+          "url": "https://github.com/RohyTeam/RohyToolbox-Swift/releases/download/1.0.0/RohyToolbox.ipa",
+          "prerelease": false
         }
       ],
       "sources": []
