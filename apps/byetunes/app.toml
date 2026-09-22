@@ -1,0 +1,12 @@
+[app]
+id="byetunes"
+name="ByeTunes"
+description="Say goodbye to iTunes sync!"
+authors=["EduAlexxis", "Stossy11"]
+ai-assisted=false
+repo="EduAlexxis/ByeTunes"
+filename="ByeTunes.ipa"
+
+[icon]
+light="light.png"
+dark="dark.png"
