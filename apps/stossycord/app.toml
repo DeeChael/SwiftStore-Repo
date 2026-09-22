@@ -1,0 +1,12 @@
+[app]
+id="stossycord"
+name="Stossycord"
+description="Stossycord is a Discord Client Native to iOS Devices."
+authors=["Stossy11"]
+ai-assisted=false
+repo="Stossycord/Stossycord"
+filename="Stossycord.ipa"
+
+[icon]
+light="light.png"
+dark="dark.png"
