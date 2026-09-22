@@ -2,7 +2,7 @@
 
 一个托管在 GitHub Pages 上的 iOS 应用源（伪 API）。
 
-每小时自动从各应用的 GitHub Releases 聚合版本信息，生成 `apps.json` 与应用图标。
+每小时自动从各应用的 GitHub Releases 聚合版本信息，生成 `apps.json`、每个应用的版本详情与应用图标。
 
 ## 如何添加应用
 
@@ -12,7 +12,7 @@
 
 3. 创建 `app.toml`，参考下面的完整说明填写。
 
-4. 本地验证（可选但推荐）：运行 `python build.py`（需 Python 3.11+），确认你的应用出现在 `dist/apps.json` 中且 `versions` 不为空。
+4. 本地验证（可选但推荐）：运行 `python build.py`（需 Python 3.11+），确认你的应用出现在 `dist/apps.json` 中，且 `dist/app/<id>/versions.json` 的 `versions` 不为空。
 
 5. 提交 PR。合并后一小时内会自动出现在源中。
 
@@ -79,13 +79,14 @@ name = "DeeChael 源"
 repo = "DeeChael/PiliPod"
 ```
 
-每个源会对自己的 `repo` 执行与默认仓库完全相同的版本收集逻辑（共用同一个 `filename` 模板和 `[parameters]`），生成的版本列表出现在该应用 JSON 的 `sources` 数组中：
+每个源会对自己的 `repo` 执行与默认仓库完全相同的版本收集逻辑（共用同一个 `filename` 模板和 `[parameters]`），生成的版本列表出现在该应用的 `versions.json` 中：
 
 ```json
 "sources": [
   {
     "id": "deechael",
     "name": "DeeChael 源",
+    "repo": "https://github.com/DeeChael/PiliPod",
     "versions": [ ... ]
   }
 ]
@@ -95,10 +96,13 @@ repo = "DeeChael/PiliPod"
 
 部署后（`gh-pages` 分支）：
 
-- `GET /apps.json` — 应用列表（`Content-Type: application/json`），访问根路径会自动跳转到这里
+- `GET /apps.json` — 应用列表与每个源的最新版本（`Content-Type: application/json`），访问根路径会自动跳转到这里
+- `GET /app/<id>/versions.json` — 单个应用的完整版本列表
+- `GET /app/<id>/official/<version>.json` — 默认仓库（official 源）某个版本的下载信息
+- `GET /app/<id>/<source-id>/<version>.json` — 非默认源某个版本的下载信息
 - `GET /icons/<id>_light.png`、`GET /icons/<id>_dark.png` — 应用图标
 
-`apps.json` 格式：
+`apps.json` 只包含应用元信息与各源的最新版本，完整版本列表放在 `app/<id>/versions.json`：
 
 ```json
 {
@@ -111,17 +115,67 @@ repo = "DeeChael/PiliPod"
       "authors": ["your-github-name"],
       "ai-assisted": false,
       "repo": "https://github.com/owner/repo",
-      "versions": [
+      "latest-version": "v1.1.0-beta.1",
+      "latest-release-version": "v1.0.0",
+      "sources": [
         {
-          "name": "v1.0.0",
-          "size": 12345,
-          "created_at": "2026-09-19T04:34:47Z",
-          "url": "https://github.com/owner/repo/releases/download/v1.0.0/MyApp.ipa",
-          "prerelease": false
+          "id": "deechael",
+          "name": "DeeChael 源",
+          "repo": "https://github.com/DeeChael/PiliPod",
+          "latest-version": "0.3.6-newui",
+          "latest-release-version": "0.3.6-newui"
         }
-      ],
-      "sources": []
+      ]
     }
   ]
+}
+```
+
+- `latest-version`：最新的版本（包含 prerelease），没有版本时为 `null`
+- `latest-release-version`：最新的非 prerelease 版本，全部是 prerelease 时为 `null`
+
+只想展示最新版的客户端只读 `apps.json` 即可；用户点击下载时再按版本名请求 `app/<id>/official/<version>.json`（非默认源为 `app/<id>/<source-id>/<version>.json`），无需先拉取完整版本列表。
+
+> 版本名作为文件名时会做最小化处理：`< > : " / \ | ? *` 与控制字符替换为 `_`，并去掉末尾的点和空格（例如 `release/1.0` → `release_1.0.json`）。
+
+`app/<id>/versions.json` 格式：
+
+```json
+{
+  "id": "my-app",
+  "name": "MyApp",
+  "description": "一句话介绍",
+  "authors": ["your-github-name"],
+  "ai-assisted": false,
+  "repo": "https://github.com/owner/repo",
+  "versions": [
+    {
+      "name": "v1.0.0",
+      "size": 12345,
+      "created_at": "2026-09-19T04:34:47Z",
+      "url": "https://github.com/owner/repo/releases/download/v1.0.0/MyApp.ipa",
+      "prerelease": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "deechael",
+      "name": "DeeChael 源",
+      "repo": "https://github.com/DeeChael/PiliPod",
+      "versions": [ ... ]
+    }
+  ]
+}
+```
+
+版本列表按 `created_at` 从新到旧排列。单个版本文件就是 `versions` 数组里的一个对象：
+
+```json
+{
+  "name": "v1.0.0",
+  "size": 12345,
+  "created_at": "2026-09-19T04:34:47Z",
+  "url": "https://github.com/owner/repo/releases/download/v1.0.0/MyApp.ipa",
+  "prerelease": false
 }
 ```

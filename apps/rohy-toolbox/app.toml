@@ -1,0 +1,12 @@
+[app]
+id="rohy-toolbox"
+name="若曦工具箱"
+description="iOS 超级工具箱合集"
+authors=["RohyTeam", "DeeChael"]
+ai-assisted=true
+repo="RohyTeam/RohyToolbox-Swift"
+filename="RohyToolbox.ipa"
+
+[icon]
+light="light.png"
+dark="dark.png"

@@ -1,10 +1,6 @@
 #!/usr/bin/env python3
-"""SwiftStore repo builder.
 
-Scans apps/*/app.toml, queries the GitHub API for tags/releases, then
-aggregates everything into dist/apps.json plus a minimal static frontend
-and light/dark icon PNGs under dist/icons/.
-"""
+# 已完成人工重写
 
 import json
 import os
@@ -13,8 +9,7 @@ from datetime import datetime, timezone
 import shutil
 import sys
 import tomllib
-import urllib.error
-import urllib.request
+import requests
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
@@ -33,15 +28,17 @@ def github_get(url: str) -> list:
     token = os.environ.get("GITHUB_TOKEN") or os.environ.get("ACCESS_TOKEN")
     if token:
         headers["Authorization"] = f"Bearer {token}"
-    req = urllib.request.Request(url, headers=headers)
+
     try:
-        with urllib.request.urlopen(req, timeout=30) as resp:
-            return json.loads(resp.read().decode("utf-8"))
-    except urllib.error.HTTPError as e:
-        print(f"  [warn] GET {url} failed: HTTP {e.code}", file=sys.stderr)
+        resp = requests.get(url, headers=headers, timeout=30)
+        resp.raise_for_status()
+        return resp.json()
+    except requests.HTTPError as e:
+        status = e.response.status_code if e.response is not None else "unknown"
+        print(f"  [warn] GET {url} failed: HTTP {status}", file=sys.stderr)
         return []
-    except urllib.error.URLError as e:
-        print(f"  [warn] GET {url} failed: {e.reason}", file=sys.stderr)
+    except requests.RequestException as e:
+        print(f"  [warn] GET {url} failed: {e}", file=sys.stderr)
         return []
 
 
@@ -112,7 +109,8 @@ def render_filename(template: str, parameters: dict, release: dict):
 
 def collect_versions(repo: str, filename_template: str, parameters: dict) -> list:
     """Return [{name, size, created_at, url, prerelease}] for releases matching
-    tags, resolving the asset filename per release via [parameters]."""
+    tags, resolving the asset filename per release via [parameters].
+    Newest first."""
     tags = github_get(f"{GITHUB_API}/repos/{repo}/tags")
     tag_names = {t.get("name") for t in tags}
 
@@ -136,7 +134,58 @@ def collect_versions(repo: str, filename_template: str, parameters: dict) -> lis
                     }
                 )
                 break
+    versions.sort(key=lambda v: v.get("created_at") or "", reverse=True)
     return versions
+
+
+def latest_version(versions: list):
+    """Newest version overall, prereleases included."""
+    return versions[0]["name"] if versions else None
+
+
+def latest_release_version(versions: list):
+    """Newest non-prerelease version, or None when every version is a prerelease."""
+    for version in versions:
+        if not version.get("prerelease"):
+            return version["name"]
+    return None
+
+
+# Characters that cannot appear in a file name on Windows; POSIX is more
+# permissive but the deployed gh-pages branch may be checked out anywhere.
+INVALID_FILENAME_CHARS = '<>:"/\\|?*'
+
+
+def version_filename(name: str) -> str:
+    """Turn a version name into a portable file name stem."""
+    cleaned = "".join("_" if c in INVALID_FILENAME_CHARS or ord(c) < 32 else c for c in name)
+    return cleaned.rstrip(" .")
+
+
+def write_json(path: Path, payload) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(payload, f, indent=2, ensure_ascii=False)
+
+
+def write_version_files(directory: Path, versions: list) -> int:
+    """Write one {version_name}.json per version into directory."""
+    written = {}
+    for version in versions:
+        stem = version_filename(version["name"])
+        if not stem:
+            print(f"  [warn] version {version['name']!r}: empty file name, skipped", file=sys.stderr)
+            continue
+        if stem in written:
+            print(
+                f"  [warn] version {version['name']!r}: file name clashes with "
+                f"{written[stem]!r}, skipped",
+                file=sys.stderr,
+            )
+            continue
+        written[stem] = version["name"]
+        write_json(directory / f"{stem}.json", version)
+    return len(written)
 
 
 def copy_icons(app_dir: Path, icons: dict, app_id: str) -> None:
@@ -180,15 +229,39 @@ def main() -> None:
         # filename template and parameters as the default repo.
         sources = []
         for source_id, source in doc.get("source", {}).items():
-            source_versions = collect_versions(source["repo"], data["filename"], parameters)
-            print(f"  source {source_id} ({source['repo']}): {len(source_versions)} versions")
+            source_repo = source["repo"]
+            source_versions = collect_versions(source_repo, data["filename"], parameters)
+            print(f"  source {source_id} ({source_repo}): {len(source_versions)} versions")
             sources.append(
                 {
                     "id": source_id,
                     "name": source["name"],
+                    "repo": f"https://github.com/{source_repo}",
                     "versions": source_versions,
                 }
             )
+
+        app_repo = f"https://github.com/{repo}"
+        app_out = DIST_DIR / "app" / app_id
+        write_json(
+            app_out / "versions.json",
+            {
+                "id": app_id,
+                "name": data["name"],
+                "description": data.get("description", ""),
+                "authors": data.get("authors", []),
+                "ai-assisted": data.get("ai-assisted", False),
+                "repo": app_repo,
+                "versions": versions,
+                "sources": sources,
+            },
+        )
+        # The default repo is the "official" source; every other source gets its
+        # own directory next to it.
+        count = write_version_files(app_out / "official", versions)
+        for source in sources:
+            count += write_version_files(app_out / source["id"], source["versions"])
+        print(f"  wrote {count} version files")
 
         apps.append(
             {
@@ -197,9 +270,19 @@ def main() -> None:
                 "description": data.get("description", ""),
                 "authors": data.get("authors", []),
                 "ai-assisted": data.get("ai-assisted", False),
-                "repo": f"https://github.com/{repo}",
-                "versions": versions,
-                "sources": sources,
+                "repo": app_repo,
+                "latest-version": latest_version(versions),
+                "latest-release-version": latest_release_version(versions),
+                "sources": [
+                    {
+                        "id": source["id"],
+                        "name": source["name"],
+                        "repo": source["repo"],
+                        "latest-version": latest_version(source["versions"]),
+                        "latest-release-version": latest_release_version(source["versions"]),
+                    }
+                    for source in sources
+                ],
             }
         )
 
@@ -207,9 +290,7 @@ def main() -> None:
 
     # GitHub-style UTC timestamp, e.g. 2026-09-19T04:36:11Z
     updated_at = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-    output = {"updated_at": updated_at, "apps": apps}
-    with open(DIST_DIR / "apps.json", "w", encoding="utf-8") as f:
-        json.dump(output, f, indent=2, ensure_ascii=False)
+    write_json(DIST_DIR / "apps.json", {"updated_at": updated_at, "apps": apps})
     print(f"wrote {DIST_DIR / 'apps.json'} ({len(apps)} apps)")
 
     write_frontend()
