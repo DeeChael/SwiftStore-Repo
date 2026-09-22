@@ -1,0 +1,12 @@
+[app]
+id="livecontainer-plus-sidestore"
+name="LiveContainer+SideStore"
+description="Run iOS apps without actually installing them!"
+authors=["LiveContainer"]
+ai-assisted=false
+repo="LiveContainer/LiveContainer"
+filename="LiveContainer+SideStore.ipa"
+
+[icon]
+light="light.png"
+dark="dark.png"
