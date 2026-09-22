@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-22T04:45:55Z",
+  "updated_at": "2026-09-22T09:52:55Z",
   "apps": [
     {
       "id": "aidoku",
@@ -547,6 +547,13 @@
       "ai-assisted": false,
       "repo": "https://github.com/minh-ton/reynard-browser",
       "versions": [
+        {
+          "name": "0.14.1",
+          "size": 108452990,
+          "created_at": "2026-09-22T03:57:01Z",
+          "url": "https://github.com/minh-ton/reynard-browser/releases/download/0.14.1/Reynard.ipa",
+          "prerelease": false
+        },
         {
           "name": "0.14.0",
           "size": 108453095,
