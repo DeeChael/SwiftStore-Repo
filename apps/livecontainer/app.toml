@@ -1,0 +1,12 @@
+[app]
+id="livecontainer"
+name="LiveContainer"
+description="Run iOS apps without actually installing them!"
+authors=["LiveContainer"]
+ai-assisted=false
+repo="LiveContainer/LiveContainer"
+filename="LiveContainer.ipa"
+
+[icon]
+light="light.png"
+dark="dark.png"
