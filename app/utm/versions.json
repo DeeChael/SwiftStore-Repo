@@ -1,0 +1,223 @@
+{
+  "id": "utm",
+  "name": "UTM",
+  "description": "Virtual machines for iOS and macOS",
+  "authors": [
+    "utmapp"
+  ],
+  "ai-assisted": false,
+  "repo": "https://github.com/utmapp/UTM",
+  "versions": [
+    {
+      "name": "v5.0.6",
+      "size": 150346971,
+      "created_at": "2026-09-24T06:00:48Z",
+      "url": "https://github.com/utmapp/UTM/releases/download/v5.0.6/UTM.ipa",
+      "prerelease": true
+    },
+    {
+      "name": "v5.0.5",
+      "size": 144463010,
+      "created_at": "2026-09-02T05:57:49Z",
+      "url": "https://github.com/utmapp/UTM/releases/download/v5.0.5/UTM.ipa",
+      "prerelease": true
+    },
+    {
+      "name": "v5.0.4",
+      "size": 131828424,
+      "created_at": "2026-08-01T16:41:47Z",
+      "url": "https://github.com/utmapp/UTM/releases/download/v5.0.4/UTM.ipa",
+      "prerelease": true
+    },
+    {
+      "name": "v5.0.3",
+      "size": 133934639,
+      "created_at": "2026-05-03T22:04:38Z",
+      "url": "https://github.com/utmapp/UTM/releases/download/v5.0.3/UTM.ipa",
+      "prerelease": true
+    },
+    {
+      "name": "v5.0.2",
+      "size": 133900790,
+      "created_at": "2026-02-24T19:17:40Z",
+      "url": "https://github.com/utmapp/UTM/releases/download/v5.0.2/UTM.ipa",
+      "prerelease": true
+    },
+    {
+      "name": "v5.0.1",
+      "size": 134042001,
+      "created_at": "2026-01-19T23:23:59Z",
+      "url": "https://github.com/utmapp/UTM/releases/download/v5.0.1/UTM.ipa",
+      "prerelease": true
+    },
+    {
+      "name": "v5.0.0",
+      "size": 134032994,
+      "created_at": "2026-01-11T20:02:21Z",
+      "url": "https://github.com/utmapp/UTM/releases/download/v5.0.0/UTM.ipa",
+      "prerelease": true
+    },
+    {
+      "name": "v4.7.5",
+      "size": 130058389,
+      "created_at": "2026-01-03T18:14:45Z",
+      "url": "https://github.com/utmapp/UTM/releases/download/v4.7.5/UTM.ipa",
+      "prerelease": false
+    },
+    {
+      "name": "v4.7.4",
+      "size": 130036731,
+      "created_at": "2025-09-15T21:39:05Z",
+      "url": "https://github.com/utmapp/UTM/releases/download/v4.7.4/UTM.ipa",
+      "prerelease": false
+    },
+    {
+      "name": "v4.7.3",
+      "size": 129998963,
+      "created_at": "2025-08-28T21:27:03Z",
+      "url": "https://github.com/utmapp/UTM/releases/download/v4.7.3/UTM.ipa",
+      "prerelease": true
+    },
+    {
+      "name": "v4.7.2",
+      "size": 129994949,
+      "created_at": "2025-08-19T18:15:36Z",
+      "url": "https://github.com/utmapp/UTM/releases/download/v4.7.2/UTM.ipa",
+      "prerelease": true
+    },
+    {
+      "name": "v4.7.1",
+      "size": 129768623,
+      "created_at": "2025-08-04T06:38:56Z",
+      "url": "https://github.com/utmapp/UTM/releases/download/v4.7.1/UTM.ipa",
+      "prerelease": true
+    },
+    {
+      "name": "v4.7.0",
+      "size": 128771689,
+      "created_at": "2025-07-09T07:42:10Z",
+      "url": "https://github.com/utmapp/UTM/releases/download/v4.7.0/UTM.ipa",
+      "prerelease": true
+    },
+    {
+      "name": "v4.6.5",
+      "size": 126242757,
+      "created_at": "2025-04-08T05:08:54Z",
+      "url": "https://github.com/utmapp/UTM/releases/download/v4.6.5/UTM.ipa",
+      "prerelease": false
+    },
+    {
+      "name": "v4.6.4",
+      "size": 126283846,
+      "created_at": "2024-12-23T17:12:52Z",
+      "url": "https://github.com/utmapp/UTM/releases/download/v4.6.4/UTM.ipa",
+      "prerelease": false
+    },
+    {
+      "name": "v4.6.3",
+      "size": 126205311,
+      "created_at": "2024-12-03T02:36:52Z",
+      "url": "https://github.com/utmapp/UTM/releases/download/v4.6.3/UTM.ipa",
+      "prerelease": false
+    },
+    {
+      "name": "v4.6.2",
+      "size": 126199938,
+      "created_at": "2024-11-27T21:08:27Z",
+      "url": "https://github.com/utmapp/UTM/releases/download/v4.6.2/UTM.ipa",
+      "prerelease": false
+    },
+    {
+      "name": "v4.6.1",
+      "size": 125892136,
+      "created_at": "2024-11-22T20:30:12Z",
+      "url": "https://github.com/utmapp/UTM/releases/download/v4.6.1/UTM.ipa",
+      "prerelease": true
+    },
+    {
+      "name": "v4.6.0",
+      "size": 125772355,
+      "created_at": "2024-10-04T06:34:33Z",
+      "url": "https://github.com/utmapp/UTM/releases/download/v4.6.0/UTM.ipa",
+      "prerelease": true
+    },
+    {
+      "name": "v4.5.4",
+      "size": 122064838,
+      "created_at": "2024-08-24T14:10:22Z",
+      "url": "https://github.com/utmapp/UTM/releases/download/v4.5.4/UTM.ipa",
+      "prerelease": false
+    },
+    {
+      "name": "v4.5.3",
+      "size": 122023507,
+      "created_at": "2024-05-24T04:58:10Z",
+      "url": "https://github.com/utmapp/UTM/releases/download/v4.5.3/UTM.ipa",
+      "prerelease": false
+    },
+    {
+      "name": "v4.5.2",
+      "size": 122012781,
+      "created_at": "2024-04-30T06:22:58Z",
+      "url": "https://github.com/utmapp/UTM/releases/download/v4.5.2/UTM.ipa",
+      "prerelease": false
+    },
+    {
+      "name": "v4.5.1",
+      "size": 121910890,
+      "created_at": "2024-04-01T06:01:34Z",
+      "url": "https://github.com/utmapp/UTM/releases/download/v4.5.1/UTM.ipa",
+      "prerelease": true
+    },
+    {
+      "name": "v4.5.0",
+      "size": 122001807,
+      "created_at": "2024-02-28T01:34:45Z",
+      "url": "https://github.com/utmapp/UTM/releases/download/v4.5.0/UTM.ipa",
+      "prerelease": true
+    },
+    {
+      "name": "v4.4.5",
+      "size": 121811168,
+      "created_at": "2023-12-11T01:04:26Z",
+      "url": "https://github.com/utmapp/UTM/releases/download/v4.4.5/UTM.ipa",
+      "prerelease": false
+    },
+    {
+      "name": "v4.4.4",
+      "size": 121809967,
+      "created_at": "2023-10-20T23:53:33Z",
+      "url": "https://github.com/utmapp/UTM/releases/download/v4.4.4/UTM.ipa",
+      "prerelease": false
+    },
+    {
+      "name": "v4.4.3",
+      "size": 121810735,
+      "created_at": "2023-10-11T04:24:05Z",
+      "url": "https://github.com/utmapp/UTM/releases/download/v4.4.3/UTM.ipa",
+      "prerelease": false
+    },
+    {
+      "name": "v4.4.2",
+      "size": 121797139,
+      "created_at": "2023-10-04T05:32:22Z",
+      "url": "https://github.com/utmapp/UTM/releases/download/v4.4.2/UTM.ipa",
+      "prerelease": true
+    },
+    {
+      "name": "v4.4.1",
+      "size": 121759652,
+      "created_at": "2023-09-05T05:34:19Z",
+      "url": "https://github.com/utmapp/UTM/releases/download/v4.4.1/UTM.ipa",
+      "prerelease": true
+    },
+    {
+      "name": "v4.4.0",
+      "size": 121691543,
+      "created_at": "2023-08-26T00:56:45Z",
+      "url": "https://github.com/utmapp/UTM/releases/download/v4.4.0/UTM.ipa",
+      "prerelease": true
+    }
+  ],
+  "sources": []
+}

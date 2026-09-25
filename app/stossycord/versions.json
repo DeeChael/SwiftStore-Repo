@@ -1,0 +1,97 @@
+{
+  "id": "stossycord",
+  "name": "Stossycord",
+  "description": "Stossycord is a Discord Client Native to iOS Devices.",
+  "authors": [
+    "Stossy11"
+  ],
+  "ai-assisted": false,
+  "repo": "https://github.com/Stossycord/Stossycord",
+  "versions": [
+    {
+      "name": "1.0",
+      "size": 4161048,
+      "created_at": "2026-07-03T11:14:49Z",
+      "url": "https://github.com/Stossycord/Stossycord/releases/download/1.0/Stossycord.ipa",
+      "prerelease": false
+    },
+    {
+      "name": "0.8",
+      "size": 1669222,
+      "created_at": "2025-12-30T14:10:30Z",
+      "url": "https://github.com/Stossycord/Stossycord/releases/download/0.8/Stossycord.ipa",
+      "prerelease": false
+    },
+    {
+      "name": "0.7",
+      "size": 1669216,
+      "created_at": "2025-12-30T13:41:17Z",
+      "url": "https://github.com/Stossycord/Stossycord/releases/download/0.7/Stossycord.ipa",
+      "prerelease": false
+    },
+    {
+      "name": "0.6",
+      "size": 1616458,
+      "created_at": "2025-09-29T23:57:09Z",
+      "url": "https://github.com/Stossycord/Stossycord/releases/download/0.6/Stossycord.ipa",
+      "prerelease": false
+    },
+    {
+      "name": "0.5.1",
+      "size": 1568011,
+      "created_at": "2025-08-01T02:32:07Z",
+      "url": "https://github.com/Stossycord/Stossycord/releases/download/0.5.1/Stossycord.ipa",
+      "prerelease": false
+    },
+    {
+      "name": "0.5",
+      "size": 1566886,
+      "created_at": "2025-08-01T02:10:47Z",
+      "url": "https://github.com/Stossycord/Stossycord/releases/download/0.5/Stossycord.ipa",
+      "prerelease": false
+    },
+    {
+      "name": "0.4",
+      "size": 1745947,
+      "created_at": "2025-04-04T02:02:50Z",
+      "url": "https://github.com/Stossycord/Stossycord/releases/download/0.4/Stossycord.ipa",
+      "prerelease": false
+    },
+    {
+      "name": "0.3",
+      "size": 1166025,
+      "created_at": "2024-11-07T03:13:26Z",
+      "url": "https://github.com/Stossycord/Stossycord/releases/download/0.3/Stossycord.ipa",
+      "prerelease": false
+    },
+    {
+      "name": "0.2",
+      "size": 1152623,
+      "created_at": "2024-11-07T00:53:04Z",
+      "url": "https://github.com/Stossycord/Stossycord/releases/download/0.2/Stossycord.ipa",
+      "prerelease": false
+    },
+    {
+      "name": "0.1.1",
+      "size": 954763,
+      "created_at": "2024-09-21T07:56:45Z",
+      "url": "https://github.com/Stossycord/Stossycord/releases/download/0.1.1/Stossycord.ipa",
+      "prerelease": false
+    },
+    {
+      "name": "0.1.0",
+      "size": 954338,
+      "created_at": "2024-09-21T02:58:33Z",
+      "url": "https://github.com/Stossycord/Stossycord/releases/download/0.1.0/Stossycord.ipa",
+      "prerelease": false
+    },
+    {
+      "name": "0.0.51",
+      "size": 673800,
+      "created_at": "2024-06-29T14:40:21Z",
+      "url": "https://github.com/Stossycord/Stossycord/releases/download/0.0.51/Stossycord.ipa",
+      "prerelease": true
+    }
+  ],
+  "sources": []
+}

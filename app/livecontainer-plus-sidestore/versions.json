@@ -1,0 +1,55 @@
+{
+  "id": "livecontainer-plus-sidestore",
+  "name": "LiveContainer+SideStore",
+  "description": "Run iOS apps without actually installing them!",
+  "authors": [
+    "LiveContainer"
+  ],
+  "ai-assisted": false,
+  "repo": "https://github.com/LiveContainer/LiveContainer",
+  "versions": [
+    {
+      "name": "nightly",
+      "size": 35926202,
+      "created_at": "2026-09-18T23:13:09Z",
+      "url": "https://github.com/LiveContainer/LiveContainer/releases/download/nightly/LiveContainer%2BSideStore.ipa",
+      "prerelease": true
+    },
+    {
+      "name": "3.8.0",
+      "size": 35403538,
+      "created_at": "2026-07-17T07:44:03Z",
+      "url": "https://github.com/LiveContainer/LiveContainer/releases/download/3.8.0/LiveContainer%2BSideStore.ipa",
+      "prerelease": false
+    },
+    {
+      "name": "3.7.2",
+      "size": 34811049,
+      "created_at": "2026-02-27T04:18:01Z",
+      "url": "https://github.com/LiveContainer/LiveContainer/releases/download/3.7.2/LiveContainer%2BSideStore.ipa",
+      "prerelease": false
+    },
+    {
+      "name": "3.7.0",
+      "size": 36613311,
+      "created_at": "2026-02-19T03:16:37Z",
+      "url": "https://github.com/LiveContainer/LiveContainer/releases/download/3.7.0/LiveContainer%2BSideStore.ipa",
+      "prerelease": false
+    },
+    {
+      "name": "3.6.1",
+      "size": 36223272,
+      "created_at": "2025-08-19T04:10:28Z",
+      "url": "https://github.com/LiveContainer/LiveContainer/releases/download/3.6.1/LiveContainer%2BSideStore.ipa",
+      "prerelease": false
+    },
+    {
+      "name": "3.6.0",
+      "size": 36213652,
+      "created_at": "2025-08-01T07:51:20Z",
+      "url": "https://github.com/LiveContainer/LiveContainer/releases/download/3.6.0/LiveContainer%2BSideStore.ipa",
+      "prerelease": false
+    }
+  ],
+  "sources": []
+}

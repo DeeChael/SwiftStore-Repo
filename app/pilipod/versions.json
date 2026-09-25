@@ -1,0 +1,84 @@
+{
+  "id": "pilipod",
+  "name": "PiliPod",
+  "description": "基于 Swift 开发的 Bilibili 第三方客户端",
+  "authors": [
+    "BPTPW"
+  ],
+  "ai-assisted": false,
+  "repo": "https://github.com/BPTPW/PiliPod",
+  "versions": [
+    {
+      "name": "0.3.7",
+      "size": 20304724,
+      "created_at": "2026-09-23T06:18:38Z",
+      "url": "https://github.com/BPTPW/PiliPod/releases/download/0.3.7/PiliPod.0.3.7%2B418.ipa",
+      "prerelease": false
+    },
+    {
+      "name": "0.3.6",
+      "size": 19998342,
+      "created_at": "2026-08-26T16:55:01Z",
+      "url": "https://github.com/BPTPW/PiliPod/releases/download/0.3.6/PiliPod.0.3.6%2B403.ipa",
+      "prerelease": false
+    },
+    {
+      "name": "0.3.5",
+      "size": 19809227,
+      "created_at": "2026-08-19T17:16:37Z",
+      "url": "https://github.com/BPTPW/PiliPod/releases/download/0.3.5/PiliPod.0.3.5%2B383.ipa",
+      "prerelease": false
+    },
+    {
+      "name": "0.3.4",
+      "size": 19506278,
+      "created_at": "2026-08-15T18:23:54Z",
+      "url": "https://github.com/BPTPW/PiliPod/releases/download/0.3.4/PiliPod.0.3.4%2B376.ipa",
+      "prerelease": false
+    },
+    {
+      "name": "0.3.3",
+      "size": 19493916,
+      "created_at": "2026-08-15T16:48:48Z",
+      "url": "https://github.com/BPTPW/PiliPod/releases/download/0.3.3/PiliPod.0.3.3%2B374.ipa",
+      "prerelease": false
+    },
+    {
+      "name": "0.3.2",
+      "size": 19456789,
+      "created_at": "2026-08-10T04:04:42Z",
+      "url": "https://github.com/BPTPW/PiliPod/releases/download/0.3.2/PiliPod.0.3.2%2B363.ipa",
+      "prerelease": false
+    },
+    {
+      "name": "0.3.1",
+      "size": 19422566,
+      "created_at": "2026-08-07T09:33:12Z",
+      "url": "https://github.com/BPTPW/PiliPod/releases/download/0.3.1/PiliPod.0.3.1%2B354.ipa",
+      "prerelease": false
+    },
+    {
+      "name": "0.3.0",
+      "size": 19308242,
+      "created_at": "2026-08-02T10:01:05Z",
+      "url": "https://github.com/BPTPW/PiliPod/releases/download/0.3.0/PiliPod.0.3.0%2B333.ipa",
+      "prerelease": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "deechael",
+      "name": "DeeChael 源",
+      "repo": "https://github.com/DeeChael/PiliPod",
+      "versions": [
+        {
+          "name": "0.3.6-newui",
+          "size": 20999156,
+          "created_at": "2026-09-20T14:26:59Z",
+          "url": "https://github.com/DeeChael/PiliPod/releases/download/0.3.6-newui/PiliPod.0.3.6-newui%2B425.ipa",
+          "prerelease": false
+        }
+      ]
+    }
+  ]
+}

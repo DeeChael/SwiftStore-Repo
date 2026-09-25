@@ -1,0 +1,63 @@
+{
+  "id": "byetunes",
+  "name": "ByeTunes",
+  "description": "Say goodbye to iTunes sync!",
+  "authors": [
+    "EduAlexxis",
+    "Stossy11"
+  ],
+  "ai-assisted": false,
+  "repo": "https://github.com/EduAlexxis/ByeTunes",
+  "versions": [
+    {
+      "name": "v2.5",
+      "size": 16815108,
+      "created_at": "2026-08-31T00:38:50Z",
+      "url": "https://github.com/EduAlexxis/ByeTunes/releases/download/v2.5/ByeTunes.ipa",
+      "prerelease": false
+    },
+    {
+      "name": "v2.4",
+      "size": 16461342,
+      "created_at": "2026-07-06T16:30:16Z",
+      "url": "https://github.com/EduAlexxis/ByeTunes/releases/download/v2.4/ByeTunes.ipa",
+      "prerelease": false
+    },
+    {
+      "name": "V2.2",
+      "size": 14546965,
+      "created_at": "2026-04-28T02:49:26Z",
+      "url": "https://github.com/EduAlexxis/ByeTunes/releases/download/V2.2/ByeTunes.ipa",
+      "prerelease": false
+    },
+    {
+      "name": "V2.1",
+      "size": 14003838,
+      "created_at": "2026-04-08T03:57:12Z",
+      "url": "https://github.com/EduAlexxis/ByeTunes/releases/download/V2.1/ByeTunes.ipa",
+      "prerelease": false
+    },
+    {
+      "name": "v1.0.2",
+      "size": 12021006,
+      "created_at": "2026-02-28T22:52:16Z",
+      "url": "https://github.com/EduAlexxis/ByeTunes/releases/download/v1.0.2/ByeTunes.ipa",
+      "prerelease": false
+    },
+    {
+      "name": "v1.0.1",
+      "size": 11973951,
+      "created_at": "2026-01-29T14:39:32Z",
+      "url": "https://github.com/EduAlexxis/ByeTunes/releases/download/v1.0.1/ByeTunes.ipa",
+      "prerelease": false
+    },
+    {
+      "name": "v1.0",
+      "size": 23732712,
+      "created_at": "2026-01-26T04:36:30Z",
+      "url": "https://github.com/EduAlexxis/ByeTunes/releases/download/v1.0/ByeTunes.ipa",
+      "prerelease": false
+    }
+  ],
+  "sources": []
+}

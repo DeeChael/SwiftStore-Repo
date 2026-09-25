@@ -1,0 +1,21 @@
+{
+  "id": "stikdebug",
+  "name": "StikDebug",
+  "description": "An on-device debugger/JIT enabler for iOS versions 17.4+, powered by idevice.",
+  "authors": [
+    "StephenDev0",
+    "CelloSerenity"
+  ],
+  "ai-assisted": false,
+  "repo": "https://github.com/StikDebug/StikDebug",
+  "versions": [
+    {
+      "name": "3.1.11",
+      "size": 13515131,
+      "created_at": "2026-09-23T23:28:00Z",
+      "url": "https://github.com/StikDebug/StikDebug/releases/download/3.1.11/StikDebug-3.1.11.ipa",
+      "prerelease": false
+    }
+  ],
+  "sources": []
+}
