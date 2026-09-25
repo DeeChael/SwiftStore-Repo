@@ -1,0 +1,12 @@
+[app]
+id="sidestore"
+name="SideStore"
+description="SideStore is an untethered, community driven alternative app store for non-jailbroken iOS devices"
+authors=["SideStore"]
+ai-assisted=false
+repo="SideStore/SideStore"
+filename="SideStore.ipa"
+
+[icon]
+light="light.png"
+dark="dark.png"
