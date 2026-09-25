@@ -1,0 +1,12 @@
+[app]
+id="rohy-finance"
+name="若曦记账"
+description="您的 iOS 记账终极方案！"
+authors=["RohyTeam", "DeeChael"]
+ai-assisted=true
+repo="RohyTeam/RohyFinance-Swift"
+filename="RohyFinance.ipa"
+
+[icon]
+light="light.png"
+dark="dark.png"
