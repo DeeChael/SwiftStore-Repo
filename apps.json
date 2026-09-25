@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25T07:41:38Z",
+  "updated_at": "2026-09-25T08:10:20Z",
   "apps": [
     {
       "id": "aidoku",
@@ -116,6 +116,20 @@
       "sources": []
     },
     {
+      "id": "rohy-finance",
+      "name": "若曦记账",
+      "description": "您的 iOS 记账终极方案！",
+      "authors": [
+        "RohyTeam",
+        "DeeChael"
+      ],
+      "ai-assisted": true,
+      "repo": "https://github.com/RohyTeam/RohyFinance-Swift",
+      "latest-version": "1.0.0",
+      "latest-release-version": "1.0.0",
+      "sources": []
+    },
+    {
       "id": "rohy-toolbox",
       "name": "若曦工具箱",
       "description": "iOS 超级工具箱合集",
@@ -125,8 +139,8 @@
       ],
       "ai-assisted": true,
       "repo": "https://github.com/RohyTeam/RohyToolbox-Swift",
-      "latest-version": "1.0.0",
-      "latest-release-version": "1.0.0",
+      "latest-version": "1.1.0",
+      "latest-release-version": "1.1.0",
       "sources": []
     },
     {
