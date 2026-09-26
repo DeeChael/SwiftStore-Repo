@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-26T13:01:00Z",
+  "updated_at": "2026-09-26T17:06:09Z",
   "apps": [
     {
       "id": "aidoku",
@@ -98,8 +98,8 @@
       ],
       "ai-assisted": true,
       "repo": "https://github.com/Eslzzyl/Pixiv-SwiftUI",
-      "latest-version": "v0.16.0",
-      "latest-release-version": "v0.16.0",
+      "latest-version": "v0.16.1",
+      "latest-release-version": "v0.16.1",
       "sources": []
     },
     {
