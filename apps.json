@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28T06:44:40Z",
+  "updated_at": "2026-09-28T15:21:00Z",
   "apps": [
     {
       "id": "aidoku",
@@ -166,8 +166,8 @@
       ],
       "ai-assisted": false,
       "repo": "https://github.com/StikDebug/StikDebug",
-      "latest-version": "3.1.12",
-      "latest-release-version": "3.1.12",
+      "latest-version": "3.1.13",
+      "latest-release-version": "3.1.13",
       "sources": []
     },
     {
