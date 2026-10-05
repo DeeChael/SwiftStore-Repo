@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-05T15:55:44Z",
+  "updated_at": "2026-10-05T22:34:31Z",
   "apps": [
     {
       "id": "aidoku",
@@ -51,8 +51,8 @@
       ],
       "ai-assisted": false,
       "repo": "https://github.com/LiveContainer/LiveContainer",
-      "latest-version": null,
-      "latest-release-version": null,
+      "latest-version": "nightly",
+      "latest-release-version": "3.8.0",
       "sources": []
     },
     {
@@ -64,8 +64,8 @@
       ],
       "ai-assisted": false,
       "repo": "https://github.com/LiveContainer/LiveContainer",
-      "latest-version": null,
-      "latest-release-version": null,
+      "latest-version": "nightly",
+      "latest-release-version": "3.8.0",
       "sources": []
     },
     {
