@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T12:20:55Z",
+  "updated_at": "2026-10-16T17:21:43Z",
   "apps": [
     {
       "id": "aidoku",
@@ -207,7 +207,7 @@
       "ai-assisted": false,
       "repo": "https://github.com/utmapp/UTM",
       "latest-version": "v5.0.7",
-      "latest-release-version": "v5.0.7",
+      "latest-release-version": "v4.7.5",
       "sources": []
     }
   ]
