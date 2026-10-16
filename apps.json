@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T20:59:57Z",
+  "updated_at": "2026-10-16T23:31:12Z",
   "apps": [
     {
       "id": "aidoku",
@@ -10,8 +10,8 @@
       ],
       "ai-assisted": false,
       "repo": "https://github.com/Aidoku/Aidoku",
-      "latest-version": "v0.9",
-      "latest-release-version": "v0.9",
+      "latest-version": "v0.9-4",
+      "latest-release-version": "v0.9-4",
       "sources": []
     },
     {

@@ -9,6 +9,13 @@
   "repo": "https://github.com/Aidoku/Aidoku",
   "versions": [
     {
+      "name": "v0.9-4",
+      "size": 14753154,
+      "created_at": "2026-10-16T22:24:38Z",
+      "url": "https://github.com/Aidoku/Aidoku/releases/download/v0.9-4/Aidoku.ipa",
+      "prerelease": false
+    },
+    {
       "name": "v0.9",
       "size": 14731108,
       "created_at": "2026-09-07T05:13:42Z",
@@ -202,13 +209,6 @@
       "size": 1607938,
       "created_at": "2022-05-02T20:41:58Z",
       "url": "https://github.com/Aidoku/Aidoku/releases/download/v0.3.2/Aidoku.ipa",
-      "prerelease": false
-    },
-    {
-      "name": "v0.3.1",
-      "size": 1565313,
-      "created_at": "2022-04-26T12:42:56Z",
-      "url": "https://github.com/Aidoku/Aidoku/releases/download/v0.3.1/Aidoku.ipa",
       "prerelease": false
     }
   ],
