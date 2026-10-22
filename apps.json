@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T10:04:29Z",
+  "updated_at": "2026-10-22T15:12:20Z",
   "apps": [
     {
       "id": "aidoku",
@@ -84,8 +84,8 @@
           "id": "deechael",
           "name": "DeeChael 源",
           "repo": "https://github.com/DeeChael/PiliPod",
-          "latest-version": "0.3.6-newui",
-          "latest-release-version": "0.3.6-newui"
+          "latest-version": null,
+          "latest-release-version": null
         }
       ]
     },
@@ -166,8 +166,8 @@
       ],
       "ai-assisted": false,
       "repo": "https://github.com/StikDebug/StikDebug",
-      "latest-version": "3.1.15",
-      "latest-release-version": "3.1.15",
+      "latest-version": null,
+      "latest-release-version": null,
       "sources": []
     },
     {
@@ -180,8 +180,8 @@
       ],
       "ai-assisted": false,
       "repo": "https://github.com/StikDebug/StikPair",
-      "latest-version": "v1.2.0",
-      "latest-release-version": "v1.2.0",
+      "latest-version": null,
+      "latest-release-version": null,
       "sources": []
     },
     {
@@ -193,8 +193,8 @@
       ],
       "ai-assisted": false,
       "repo": "https://github.com/Stossycord/Stossycord",
-      "latest-version": "1.0",
-      "latest-release-version": "1.0",
+      "latest-version": null,
+      "latest-release-version": null,
       "sources": []
     },
     {
@@ -206,8 +206,8 @@
       ],
       "ai-assisted": false,
       "repo": "https://github.com/utmapp/UTM",
-      "latest-version": "v5.0.8",
-      "latest-release-version": "v5.0.8",
+      "latest-version": null,
+      "latest-release-version": null,
       "sources": []
     }
   ]

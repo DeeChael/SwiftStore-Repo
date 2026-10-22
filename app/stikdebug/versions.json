@@ -8,14 +8,6 @@
   ],
   "ai-assisted": false,
   "repo": "https://github.com/StikDebug/StikDebug",
-  "versions": [
-    {
-      "name": "3.1.15",
-      "size": 13543234,
-      "created_at": "2026-10-15T14:34:01Z",
-      "url": "https://github.com/StikDebug/StikDebug/releases/download/3.1.15/StikDebug-3.1.15.ipa",
-      "prerelease": false
-    }
-  ],
+  "versions": [],
   "sources": []
 }
