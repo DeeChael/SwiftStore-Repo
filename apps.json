@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T09:02:16Z",
+  "updated_at": "2026-11-04T17:08:31Z",
   "apps": [
     {
       "id": "aidoku",
@@ -77,8 +77,8 @@
       ],
       "ai-assisted": false,
       "repo": "https://github.com/BPTPW/PiliPod",
-      "latest-version": "0.3.7",
-      "latest-release-version": "0.3.7",
+      "latest-version": "0.4.0",
+      "latest-release-version": "0.4.0",
       "sources": [
         {
           "id": "deechael",

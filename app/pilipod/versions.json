@@ -9,6 +9,13 @@
   "repo": "https://github.com/BPTPW/PiliPod",
   "versions": [
     {
+      "name": "0.4.0",
+      "size": 8753055,
+      "created_at": "2026-11-04T10:35:26Z",
+      "url": "https://github.com/BPTPW/PiliPod/releases/download/0.4.0/PiliPod.0.4.0%2B441.ipa",
+      "prerelease": false
+    },
+    {
       "name": "0.3.7",
       "size": 20304724,
       "created_at": "2026-09-23T06:18:38Z",
