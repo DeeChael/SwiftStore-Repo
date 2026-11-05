@@ -10,6 +10,13 @@
   "repo": "https://github.com/EduAlexxis/ByeTunes",
   "versions": [
     {
+      "name": "v2.7",
+      "size": 13164644,
+      "created_at": "2026-11-05T01:14:48Z",
+      "url": "https://github.com/EduAlexxis/ByeTunes/releases/download/v2.7/ByeTunes.ipa",
+      "prerelease": false
+    },
+    {
       "name": "v2.5",
       "size": 16815108,
       "created_at": "2026-08-31T00:38:50Z",

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T23:35:59Z",
+  "updated_at": "2026-11-05T06:34:04Z",
   "apps": [
     {
       "id": "aidoku",
@@ -24,8 +24,8 @@
       ],
       "ai-assisted": false,
       "repo": "https://github.com/EduAlexxis/ByeTunes",
-      "latest-version": "v2.5",
-      "latest-release-version": "v2.5",
+      "latest-version": "v2.7",
+      "latest-release-version": "v2.7",
       "sources": []
     },
     {
