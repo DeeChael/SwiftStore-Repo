@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T21:56:33Z",
+  "updated_at": "2026-11-06T02:18:51Z",
   "apps": [
     {
       "id": "aidoku",
@@ -111,8 +111,8 @@
       ],
       "ai-assisted": false,
       "repo": "https://github.com/minh-ton/reynard-browser",
-      "latest-version": "0.20.0",
-      "latest-release-version": "0.20.0",
+      "latest-version": "0.20.1",
+      "latest-release-version": "0.20.1",
       "sources": []
     },
     {
