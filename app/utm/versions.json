@@ -9,6 +9,13 @@
   "repo": "https://github.com/utmapp/UTM",
   "versions": [
     {
+      "name": "v5.0.9-2",
+      "size": 150730029,
+      "created_at": "2026-11-18T10:09:36Z",
+      "url": "https://github.com/utmapp/UTM/releases/download/v5.0.9-2/UTM.ipa",
+      "prerelease": false
+    },
+    {
       "name": "v5.0.9",
       "size": 150730050,
       "created_at": "2026-11-16T20:53:54Z",
@@ -202,20 +209,6 @@
       "size": 121811168,
       "created_at": "2023-12-11T01:04:26Z",
       "url": "https://github.com/utmapp/UTM/releases/download/v4.4.5/UTM.ipa",
-      "prerelease": false
-    },
-    {
-      "name": "v4.4.4",
-      "size": 121809967,
-      "created_at": "2023-10-20T23:53:33Z",
-      "url": "https://github.com/utmapp/UTM/releases/download/v4.4.4/UTM.ipa",
-      "prerelease": false
-    },
-    {
-      "name": "v4.4.3",
-      "size": 121810735,
-      "created_at": "2023-10-11T04:24:05Z",
-      "url": "https://github.com/utmapp/UTM/releases/download/v4.4.3/UTM.ipa",
       "prerelease": false
     }
   ],
